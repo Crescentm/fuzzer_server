@@ -1,0 +1,42 @@
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">Recent
+            Jobs</h6>
+    </div>
+    <div class="card-body table-responsive">
+        <table class="table table-bordered" id="dataTable" width=
+                "100%" cellspacing="0">
+            <thead>
+            <tr>
+                <th>Job ID</th>
+                <th>Name</th>
+		<th>status</th>
+            </tr>
+            </thead>
+        </table>
+    </div>
+
+    <!-- code to update jobs table via api -->
+    <script>
+        $(document).ready(function() {
+            $('#dataTable').DataTable( {
+                "ajax": {
+                    "url": "/api/job/",
+                    "dataSrc": ""
+                },
+                "order": [[ 0, 'desc' ]],
+                "columns": [
+                    {
+                        data: 'id',
+                        render: function(data, type, row, meta) {
+                            return '<a href="jobs.html?job_id=' + encodeURIComponent(data) + '">'+data+'</a>';
+                        }
+                    },
+                    { data: 'name'},
+				    { data: 'name', render: function(data) {
+						return 'running'}}
+                ]
+            } );
+        } );
+    </script>
+</div>

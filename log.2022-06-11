@@ -1,0 +1,760 @@
+INFO:2022-06-11 17:10:17,507: * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.201.97.36:5000 (Press CTRL+C to quit)
+INFO:2022-06-11 17:10:17,510: * Restarting with stat
+WARNING:2022-06-11 17:10:18,905: * Debugger is active!
+INFO:2022-06-11 17:10:18,912: * Debugger PIN: 121-867-897
+INFO:2022-06-11 17:10:45,879:127.0.0.1 - - [11/Jun/2022 17:10:45] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:2022-06-11 17:10:46,124:127.0.0.1 - - [11/Jun/2022 17:10:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:2022-06-11 17:10:48,835:127.0.0.1 - - [11/Jun/2022 17:10:48] "[32mGET /job HTTP/1.1[0m" 308 -
+INFO:2022-06-11 17:10:49,168:127.0.0.1 - - [11/Jun/2022 17:10:49] "GET /job/ HTTP/1.1" 200 -
+INFO:2022-06-11 17:10:49,397:127.0.0.1 - - [11/Jun/2022 17:10:49] "[33mGET /job/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 404 -
+INFO:2022-06-11 17:10:49,492:127.0.0.1 - - [11/Jun/2022 17:10:49] "[33mGET /job/css/sb-admin-2.css HTTP/1.1[0m" 404 -
+INFO:2022-06-11 17:10:49,493:127.0.0.1 - - [11/Jun/2022 17:10:49] "[33mGET /job/css/bootstrap.css HTTP/1.1[0m" 404 -
+INFO:2022-06-11 17:10:49,494:127.0.0.1 - - [11/Jun/2022 17:10:49] "[33mGET /job/vendor/jquery/jquery.min.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 17:10:49,495:127.0.0.1 - - [11/Jun/2022 17:10:49] "[33mGET /job/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 17:10:49,499:127.0.0.1 - - [11/Jun/2022 17:10:49] "[33mGET /job/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 17:10:49,705:127.0.0.1 - - [11/Jun/2022 17:10:49] "[33mGET /job/js/sb-admin-2.min.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 17:10:49,802:127.0.0.1 - - [11/Jun/2022 17:10:49] "[33mGET /job/vendor/moment/moment.min.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 17:10:49,804:127.0.0.1 - - [11/Jun/2022 17:10:49] "[33mGET /job/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 17:10:49,806:127.0.0.1 - - [11/Jun/2022 17:10:49] "[33mGET /job/vendor/datatables/jquery.dataTables.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 17:10:49,807:127.0.0.1 - - [11/Jun/2022 17:10:49] "[33mGET /job/vendor/datatables/dataTables.bootstrap4.min.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 17:10:49,809:127.0.0.1 - - [11/Jun/2022 17:10:49] "[33mGET /job/js/lagopus.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 17:10:50,014:127.0.0.1 - - [11/Jun/2022 17:10:50] "[33mGET /job/img/lagopus.svg HTTP/1.1[0m" 404 -
+INFO:2022-06-11 17:10:50,341:127.0.0.1 - - [11/Jun/2022 17:10:50] "[33mGET /job/img/favicon.ico HTTP/1.1[0m" 404 -
+INFO:2022-06-11 17:13:26,110: * Detected change in 'D:\\Work\\Fuzzer\\src\\fuzzer_server\\job\\api.py', reloading
+INFO:2022-06-11 17:13:26,263: * Restarting with stat
+INFO:2022-06-11 17:14:25,695: * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.201.97.36:5000 (Press CTRL+C to quit)
+INFO:2022-06-11 17:14:25,697: * Restarting with stat
+WARNING:2022-06-11 17:14:27,040: * Debugger is active!
+INFO:2022-06-11 17:14:27,046: * Debugger PIN: 121-867-897
+INFO:2022-06-11 17:14:30,124:127.0.0.1 - - [11/Jun/2022 17:14:30] "GET /job/ HTTP/1.1" 200 -
+INFO:2022-06-11 17:14:30,366:127.0.0.1 - - [11/Jun/2022 17:14:30] "GET /job/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 -
+INFO:2022-06-11 17:14:30,450:127.0.0.1 - - [11/Jun/2022 17:14:30] "GET /job/css/sb-admin-2.css HTTP/1.1" 200 -
+INFO:2022-06-11 17:14:30,452:127.0.0.1 - - [11/Jun/2022 17:14:30] "GET /job/vendor/jquery/jquery.min.js HTTP/1.1" 200 -
+INFO:2022-06-11 17:14:30,452:127.0.0.1 - - [11/Jun/2022 17:14:30] "GET /job/css/bootstrap.css HTTP/1.1" 200 -
+INFO:2022-06-11 17:14:30,454:127.0.0.1 - - [11/Jun/2022 17:14:30] "GET /job/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+INFO:2022-06-11 17:14:30,456:127.0.0.1 - - [11/Jun/2022 17:14:30] "GET /job/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1" 200 -
+INFO:2022-06-11 17:14:30,672:127.0.0.1 - - [11/Jun/2022 17:14:30] "GET /job/js/sb-admin-2.min.js HTTP/1.1" 200 -
+INFO:2022-06-11 17:14:30,760:127.0.0.1 - - [11/Jun/2022 17:14:30] "GET /job/vendor/moment/moment.min.js HTTP/1.1" 200 -
+INFO:2022-06-11 17:14:30,762:127.0.0.1 - - [11/Jun/2022 17:14:30] "GET /job/vendor/chart.js/Chart.min.js HTTP/1.1" 200 -
+INFO:2022-06-11 17:14:30,772:127.0.0.1 - - [11/Jun/2022 17:14:30] "GET /job/vendor/datatables/jquery.dataTables.js HTTP/1.1" 200 -
+INFO:2022-06-11 17:14:30,777:127.0.0.1 - - [11/Jun/2022 17:14:30] "GET /job/vendor/datatables/dataTables.bootstrap4.min.js HTTP/1.1" 200 -
+INFO:2022-06-11 17:14:30,778:127.0.0.1 - - [11/Jun/2022 17:14:30] "GET /job/js/lagopus.js HTTP/1.1" 200 -
+INFO:2022-06-11 17:14:30,981:127.0.0.1 - - [11/Jun/2022 17:14:30] "GET /job/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 -
+INFO:2022-06-11 17:14:31,133:127.0.0.1 - - [11/Jun/2022 17:14:31] "[33mGET /job/api/jobs HTTP/1.1[0m" 404 -
+INFO:2022-06-11 17:14:31,135:127.0.0.1 - - [11/Jun/2022 17:14:31] "[33mGET /job/api/jobs?_=1654938870642 HTTP/1.1[0m" 404 -
+INFO:2022-06-11 17:14:31,160:127.0.0.1 - - [11/Jun/2022 17:14:31] "GET /job/img/lagopus.svg HTTP/1.1" 200 -
+INFO:2022-06-11 18:39:11,537:127.0.0.1 - - [11/Jun/2022 18:39:11] "GET /job/index.html HTTP/1.1" 200 -
+INFO:2022-06-11 18:39:15,790:127.0.0.1 - - [11/Jun/2022 18:39:15] "[33mGET /job/api/jobs?_=1654943955712 HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:39:43,931: * Detected change in 'D:\\Work\\Fuzzer\\src\\fuzzer_server\\job\\api.py', reloading
+INFO:2022-06-11 18:39:44,036: * Restarting with stat
+WARNING:2022-06-11 18:39:45,455: * Debugger is active!
+INFO:2022-06-11 18:39:45,461: * Debugger PIN: 121-867-897
+INFO:2022-06-11 18:44:17,515:127.0.0.1 - - [11/Jun/2022 18:44:17] "GET /job/ HTTP/1.1" 200 -
+INFO:2022-06-11 18:44:17,756:127.0.0.1 - - [11/Jun/2022 18:44:17] "[33mGET /job/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:44:17,838:127.0.0.1 - - [11/Jun/2022 18:44:17] "[33mGET /job/css/sb-admin-2.css HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:44:17,839:127.0.0.1 - - [11/Jun/2022 18:44:17] "[33mGET /job/css/bootstrap.css HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:44:17,840:127.0.0.1 - - [11/Jun/2022 18:44:17] "[33mGET /job/vendor/jquery/jquery.min.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:44:17,841:127.0.0.1 - - [11/Jun/2022 18:44:17] "[33mGET /job/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:44:17,843:127.0.0.1 - - [11/Jun/2022 18:44:17] "[33mGET /job/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:44:18,062:127.0.0.1 - - [11/Jun/2022 18:44:18] "[33mGET /job/js/sb-admin-2.min.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:44:18,147:127.0.0.1 - - [11/Jun/2022 18:44:18] "[33mGET /job/vendor/moment/moment.min.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:44:18,150:127.0.0.1 - - [11/Jun/2022 18:44:18] "[33mGET /job/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:44:18,152:127.0.0.1 - - [11/Jun/2022 18:44:18] "[33mGET /job/vendor/datatables/jquery.dataTables.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:44:18,153:127.0.0.1 - - [11/Jun/2022 18:44:18] "[33mGET /job/vendor/datatables/dataTables.bootstrap4.min.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:44:18,155:127.0.0.1 - - [11/Jun/2022 18:44:18] "[33mGET /job/js/lagopus.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:44:18,371:127.0.0.1 - - [11/Jun/2022 18:44:18] "[33mGET /job/img/lagopus.svg HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:44:18,731:127.0.0.1 - - [11/Jun/2022 18:44:18] "[33mGET /job/url_for('static',%20'img/favicon.ico') HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:44:22,258:127.0.0.1 - - [11/Jun/2022 18:44:22] "[33mGET /job/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:44:22,559:127.0.0.1 - - [11/Jun/2022 18:44:22] "[33mGET /job/css/sb-admin-2.css HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:44:22,561:127.0.0.1 - - [11/Jun/2022 18:44:22] "[33mGET /job/css/bootstrap.css HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:47:37,513:127.0.0.1 - - [11/Jun/2022 18:47:37] "[35m[1mGET /job/ HTTP/1.1[0m" 500 -
+INFO:2022-06-11 18:47:37,732:127.0.0.1 - - [11/Jun/2022 18:47:37] "GET /job/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:2022-06-11 18:47:37,837:127.0.0.1 - - [11/Jun/2022 18:47:37] "GET /job/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:2022-06-11 18:47:37,875:127.0.0.1 - - [11/Jun/2022 18:47:37] "GET /job/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:2022-06-11 18:47:38,274:127.0.0.1 - - [11/Jun/2022 18:47:38] "[36mGET /job/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:2022-06-11 18:48:06,341:127.0.0.1 - - [11/Jun/2022 18:48:06] "GET /job/ HTTP/1.1" 200 -
+INFO:2022-06-11 18:48:06,664:127.0.0.1 - - [11/Jun/2022 18:48:06] "[33mGET /job/url_for('static',%20'vendor/fontawesome-free/css/all.min.css') HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:48:06,665:127.0.0.1 - - [11/Jun/2022 18:48:06] "[33mGET /job/css/sb-admin-2.css HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:48:06,666:127.0.0.1 - - [11/Jun/2022 18:48:06] "[33mGET /job/css/bootstrap.css HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:48:06,668:127.0.0.1 - - [11/Jun/2022 18:48:06] "[33mGET /job/vendor/jquery/jquery.min.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:48:06,670:127.0.0.1 - - [11/Jun/2022 18:48:06] "[33mGET /job/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:48:06,673:127.0.0.1 - - [11/Jun/2022 18:48:06] "[33mGET /job/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:48:06,972:127.0.0.1 - - [11/Jun/2022 18:48:06] "[33mGET /job/js/sb-admin-2.min.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:48:06,973:127.0.0.1 - - [11/Jun/2022 18:48:06] "[33mGET /job/vendor/moment/moment.min.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:48:06,975:127.0.0.1 - - [11/Jun/2022 18:48:06] "[33mGET /job/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:48:06,977:127.0.0.1 - - [11/Jun/2022 18:48:06] "[33mGET /job/vendor/datatables/jquery.dataTables.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:48:06,979:127.0.0.1 - - [11/Jun/2022 18:48:06] "[33mGET /job/vendor/datatables/dataTables.bootstrap4.min.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:48:06,980:127.0.0.1 - - [11/Jun/2022 18:48:06] "[33mGET /job/js/lagopus.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:48:07,282:127.0.0.1 - - [11/Jun/2022 18:48:07] "[33mGET /job/img/lagopus.svg HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:48:07,596:127.0.0.1 - - [11/Jun/2022 18:48:07] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+INFO:2022-06-11 18:48:59,134:127.0.0.1 - - [11/Jun/2022 18:48:59] "GET /job/ HTTP/1.1" 200 -
+INFO:2022-06-11 18:48:59,464:127.0.0.1 - - [11/Jun/2022 18:48:59] "[33mGET /job/url_for('static',%20'vendor/fontawesome-free/css/all.min.css') HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:48:59,464:127.0.0.1 - - [11/Jun/2022 18:48:59] "[33mGET /job/css/sb-admin-2.css HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:48:59,465:127.0.0.1 - - [11/Jun/2022 18:48:59] "[33mGET /job/css/bootstrap.css HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:48:59,468:127.0.0.1 - - [11/Jun/2022 18:48:59] "[33mGET /job/vendor/jquery/jquery.min.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:48:59,469:127.0.0.1 - - [11/Jun/2022 18:48:59] "[33mGET /job/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:48:59,471:127.0.0.1 - - [11/Jun/2022 18:48:59] "[33mGET /job/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:48:59,776:127.0.0.1 - - [11/Jun/2022 18:48:59] "[33mGET /job/js/sb-admin-2.min.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:48:59,777:127.0.0.1 - - [11/Jun/2022 18:48:59] "[33mGET /job/vendor/moment/moment.min.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:48:59,778:127.0.0.1 - - [11/Jun/2022 18:48:59] "[33mGET /job/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:48:59,780:127.0.0.1 - - [11/Jun/2022 18:48:59] "[33mGET /job/vendor/datatables/jquery.dataTables.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:48:59,782:127.0.0.1 - - [11/Jun/2022 18:48:59] "[33mGET /job/vendor/datatables/dataTables.bootstrap4.min.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:48:59,784:127.0.0.1 - - [11/Jun/2022 18:48:59] "[33mGET /job/js/lagopus.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:49:00,088:127.0.0.1 - - [11/Jun/2022 18:49:00] "[33mGET /job/img/lagopus.svg HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:49:00,416:127.0.0.1 - - [11/Jun/2022 18:49:00] "[36mGET /static/img/favicon.ico HTTP/1.1[0m" 304 -
+INFO:2022-06-11 18:49:11,518: * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.201.97.36:5000 (Press CTRL+C to quit)
+INFO:2022-06-11 18:49:11,520: * Restarting with stat
+WARNING:2022-06-11 18:49:12,945: * Debugger is active!
+INFO:2022-06-11 18:49:12,951: * Debugger PIN: 121-867-897
+INFO:2022-06-11 18:49:16,511:127.0.0.1 - - [11/Jun/2022 18:49:16] "GET /job/ HTTP/1.1" 200 -
+INFO:2022-06-11 18:49:16,748:127.0.0.1 - - [11/Jun/2022 18:49:16] "[33mGET /job/url_for('static',%20'vendor/fontawesome-free/css/all.min.css') HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:49:16,832:127.0.0.1 - - [11/Jun/2022 18:49:16] "[33mGET /job/css/sb-admin-2.css HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:49:16,832:127.0.0.1 - - [11/Jun/2022 18:49:16] "[33mGET /job/css/bootstrap.css HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:49:16,834:127.0.0.1 - - [11/Jun/2022 18:49:16] "[33mGET /job/vendor/jquery/jquery.min.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:49:16,836:127.0.0.1 - - [11/Jun/2022 18:49:16] "[33mGET /job/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:49:16,837:127.0.0.1 - - [11/Jun/2022 18:49:16] "[33mGET /job/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:49:17,054:127.0.0.1 - - [11/Jun/2022 18:49:17] "[33mGET /job/js/sb-admin-2.min.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:49:17,143:127.0.0.1 - - [11/Jun/2022 18:49:17] "[33mGET /job/vendor/moment/moment.min.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:49:17,145:127.0.0.1 - - [11/Jun/2022 18:49:17] "[33mGET /job/vendor/datatables/jquery.dataTables.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:49:17,146:127.0.0.1 - - [11/Jun/2022 18:49:17] "[33mGET /job/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:49:17,148:127.0.0.1 - - [11/Jun/2022 18:49:17] "[33mGET /job/vendor/datatables/dataTables.bootstrap4.min.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:49:17,150:127.0.0.1 - - [11/Jun/2022 18:49:17] "[33mGET /job/js/lagopus.js HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:49:17,364:127.0.0.1 - - [11/Jun/2022 18:49:17] "[33mGET /job/img/lagopus.svg HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:49:17,733:127.0.0.1 - - [11/Jun/2022 18:49:17] "[36mGET /static/img/favicon.ico HTTP/1.1[0m" 304 -
+INFO:2022-06-11 18:56:10,535:127.0.0.1 - - [11/Jun/2022 18:56:10] "GET /job/ HTTP/1.1" 200 -
+INFO:2022-06-11 18:56:10,780:127.0.0.1 - - [11/Jun/2022 18:56:10] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 -
+INFO:2022-06-11 18:56:10,858:127.0.0.1 - - [11/Jun/2022 18:56:10] "GET /static/css/sb-admin-2.css HTTP/1.1" 200 -
+INFO:2022-06-11 18:56:10,859:127.0.0.1 - - [11/Jun/2022 18:56:10] "GET /static/css/bootstrap.css HTTP/1.1" 200 -
+INFO:2022-06-11 18:56:10,860:127.0.0.1 - - [11/Jun/2022 18:56:10] "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 200 -
+INFO:2022-06-11 18:56:10,863:127.0.0.1 - - [11/Jun/2022 18:56:10] "GET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+INFO:2022-06-11 18:56:10,864:127.0.0.1 - - [11/Jun/2022 18:56:10] "GET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1" 200 -
+INFO:2022-06-11 18:56:11,088:127.0.0.1 - - [11/Jun/2022 18:56:11] "GET /static/js/sb-admin-2.min.js HTTP/1.1" 200 -
+INFO:2022-06-11 18:56:11,174:127.0.0.1 - - [11/Jun/2022 18:56:11] "GET /static/vendor/chart.js/Chart.min.js HTTP/1.1" 200 -
+INFO:2022-06-11 18:56:11,175:127.0.0.1 - - [11/Jun/2022 18:56:11] "GET /static/vendor/moment/moment.min.js HTTP/1.1" 200 -
+INFO:2022-06-11 18:56:11,176:127.0.0.1 - - [11/Jun/2022 18:56:11] "GET /static/vendor/datatables/jquery.dataTables.js HTTP/1.1" 200 -
+INFO:2022-06-11 18:56:11,180:127.0.0.1 - - [11/Jun/2022 18:56:11] "GET /static/vendor/datatables/dataTables.bootstrap4.min.js HTTP/1.1" 200 -
+INFO:2022-06-11 18:56:11,182:127.0.0.1 - - [11/Jun/2022 18:56:11] "GET /static/js/lagopus.js HTTP/1.1" 200 -
+INFO:2022-06-11 18:56:11,400:127.0.0.1 - - [11/Jun/2022 18:56:11] "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 -
+INFO:2022-06-11 18:56:11,485:127.0.0.1 - - [11/Jun/2022 18:56:11] "[33mGET /job/api/jobs HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:56:11,548:127.0.0.1 - - [11/Jun/2022 18:56:11] "[33mGET /job/api/jobs?_=1654944970885 HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:56:11,549:127.0.0.1 - - [11/Jun/2022 18:56:11] "[33mGET /job/img/lagopus.svg HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:56:11,569:127.0.0.1 - - [11/Jun/2022 18:56:11] "GET /static/vendor/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 -
+INFO:2022-06-11 18:56:12,950:127.0.0.1 - - [11/Jun/2022 18:56:12] "[36mGET /static/img/favicon.ico HTTP/1.1[0m" 304 -
+INFO:2022-06-11 18:56:29,220:127.0.0.1 - - [11/Jun/2022 18:56:29] "GET /job/ HTTP/1.1" 200 -
+INFO:2022-06-11 18:56:29,547:127.0.0.1 - - [11/Jun/2022 18:56:29] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 18:56:29,548:127.0.0.1 - - [11/Jun/2022 18:56:29] "[36mGET /static/css/bootstrap.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 18:56:29,549:127.0.0.1 - - [11/Jun/2022 18:56:29] "[36mGET /static/css/sb-admin-2.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 18:56:29,550:127.0.0.1 - - [11/Jun/2022 18:56:29] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 18:56:29,552:127.0.0.1 - - [11/Jun/2022 18:56:29] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 18:56:29,554:127.0.0.1 - - [11/Jun/2022 18:56:29] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 18:56:29,855:127.0.0.1 - - [11/Jun/2022 18:56:29] "[36mGET /static/vendor/moment/moment.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 18:56:29,856:127.0.0.1 - - [11/Jun/2022 18:56:29] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 18:56:29,859:127.0.0.1 - - [11/Jun/2022 18:56:29] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 18:56:29,862:127.0.0.1 - - [11/Jun/2022 18:56:29] "[36mGET /static/vendor/datatables/jquery.dataTables.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 18:56:29,864:127.0.0.1 - - [11/Jun/2022 18:56:29] "[36mGET /static/vendor/datatables/dataTables.bootstrap4.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 18:56:29,865:127.0.0.1 - - [11/Jun/2022 18:56:29] "[36mGET /static/js/lagopus.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 18:56:30,165:127.0.0.1 - - [11/Jun/2022 18:56:30] "[36mGET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:2022-06-11 18:56:30,194:127.0.0.1 - - [11/Jun/2022 18:56:30] "[33mGET /job/api/jobs HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:56:30,198:127.0.0.1 - - [11/Jun/2022 18:56:30] "[33mGET /job/api/jobs?_=1654944989576 HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:56:30,217:127.0.0.1 - - [11/Jun/2022 18:56:30] "[33mGET /job/img/lagopus.svg HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:56:31,956:127.0.0.1 - - [11/Jun/2022 18:56:31] "[36mGET /static/img/favicon.ico HTTP/1.1[0m" 304 -
+INFO:2022-06-11 18:56:33,334:127.0.0.1 - - [11/Jun/2022 18:56:33] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 18:56:33,638:127.0.0.1 - - [11/Jun/2022 18:56:33] "[36mGET /static/css/sb-admin-2.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 18:56:33,640:127.0.0.1 - - [11/Jun/2022 18:56:33] "[36mGET /static/css/bootstrap.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 18:56:33,747:127.0.0.1 - - [11/Jun/2022 18:56:33] "GET /static/vendor/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 -
+INFO:2022-06-11 18:57:13,713:127.0.0.1 - - [11/Jun/2022 18:57:13] "GET /job/ HTTP/1.1" 200 -
+INFO:2022-06-11 18:57:13,964:127.0.0.1 - - [11/Jun/2022 18:57:13] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 18:57:14,041:127.0.0.1 - - [11/Jun/2022 18:57:14] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 18:57:14,041:127.0.0.1 - - [11/Jun/2022 18:57:14] "[36mGET /static/css/bootstrap.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 18:57:14,042:127.0.0.1 - - [11/Jun/2022 18:57:14] "[36mGET /static/css/sb-admin-2.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 18:57:14,043:127.0.0.1 - - [11/Jun/2022 18:57:14] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 18:57:14,046:127.0.0.1 - - [11/Jun/2022 18:57:14] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 18:57:14,275:127.0.0.1 - - [11/Jun/2022 18:57:14] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 18:57:14,352:127.0.0.1 - - [11/Jun/2022 18:57:14] "[36mGET /static/vendor/moment/moment.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 18:57:14,354:127.0.0.1 - - [11/Jun/2022 18:57:14] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 18:57:14,355:127.0.0.1 - - [11/Jun/2022 18:57:14] "[36mGET /static/vendor/datatables/jquery.dataTables.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 18:57:14,358:127.0.0.1 - - [11/Jun/2022 18:57:14] "[36mGET /static/vendor/datatables/dataTables.bootstrap4.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 18:57:14,359:127.0.0.1 - - [11/Jun/2022 18:57:14] "[36mGET /static/js/lagopus.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 18:57:14,582:127.0.0.1 - - [11/Jun/2022 18:57:14] "[33mGET /job/api/jobs HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:57:14,683:127.0.0.1 - - [11/Jun/2022 18:57:14] "[33mGET /job/api/jobs?_=1654945034080 HTTP/1.1[0m" 404 -
+INFO:2022-06-11 18:57:14,715:127.0.0.1 - - [11/Jun/2022 18:57:14] "GET /static/img/lagopus.svg HTTP/1.1" 200 -
+INFO:2022-06-11 18:57:14,736:127.0.0.1 - - [11/Jun/2022 18:57:14] "GET /static/vendor/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 -
+INFO:2022-06-11 18:57:16,043:127.0.0.1 - - [11/Jun/2022 18:57:16] "[36mGET /static/img/favicon.ico HTTP/1.1[0m" 304 -
+WARNING:2022-06-11 08:26:58,980: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:2022-06-11 08:26:58,980: * Running on http://192.168.159.136:5000/ (Press CTRL+C to quit)
+INFO:2022-06-11 08:26:58,982: * Restarting with stat
+WARNING:2022-06-11 08:27:00,084: * Debugger is active!
+INFO:2022-06-11 08:27:00,111: * Debugger PIN: 539-015-333
+INFO:2022-06-11 08:27:43,061:192.168.159.1 - - [11/Jun/2022 08:27:43] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:2022-06-11 08:27:44,391:192.168.159.1 - - [11/Jun/2022 08:27:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:2022-06-11 08:27:49,482:192.168.159.1 - - [11/Jun/2022 08:27:49] "GET /job/ HTTP/1.1" 200 -
+INFO:2022-06-11 08:27:49,897:192.168.159.1 - - [11/Jun/2022 08:27:49] "GET /static/css/bootstrap.css HTTP/1.1" 200 -
+INFO:2022-06-11 08:27:49,898:192.168.159.1 - - [11/Jun/2022 08:27:49] "GET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1" 200 -
+INFO:2022-06-11 08:27:49,899:192.168.159.1 - - [11/Jun/2022 08:27:49] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 -
+INFO:2022-06-11 08:27:49,900:192.168.159.1 - - [11/Jun/2022 08:27:49] "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 200 -
+INFO:2022-06-11 08:27:49,901:192.168.159.1 - - [11/Jun/2022 08:27:49] "GET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+INFO:2022-06-11 08:27:49,906:192.168.159.1 - - [11/Jun/2022 08:27:49] "GET /static/css/sb-admin-2.css HTTP/1.1" 200 -
+INFO:2022-06-11 08:27:49,914:192.168.159.1 - - [11/Jun/2022 08:27:49] "GET /static/js/sb-admin-2.min.js HTTP/1.1" 200 -
+INFO:2022-06-11 08:27:49,919:192.168.159.1 - - [11/Jun/2022 08:27:49] "GET /static/vendor/chart.js/Chart.min.js HTTP/1.1" 200 -
+INFO:2022-06-11 08:27:49,920:192.168.159.1 - - [11/Jun/2022 08:27:49] "GET /static/vendor/moment/moment.min.js HTTP/1.1" 200 -
+INFO:2022-06-11 08:27:49,933:192.168.159.1 - - [11/Jun/2022 08:27:49] "GET /static/vendor/datatables/jquery.dataTables.js HTTP/1.1" 200 -
+INFO:2022-06-11 08:27:49,935:192.168.159.1 - - [11/Jun/2022 08:27:49] "GET /static/vendor/datatables/dataTables.bootstrap4.min.js HTTP/1.1" 200 -
+INFO:2022-06-11 08:27:49,957:192.168.159.1 - - [11/Jun/2022 08:27:49] "GET /static/js/lagopus.js HTTP/1.1" 200 -
+INFO:2022-06-11 08:27:49,967:192.168.159.1 - - [11/Jun/2022 08:27:49] "GET /static/img/lagopus.svg HTTP/1.1" 200 -
+INFO:2022-06-11 08:27:52,446:192.168.159.1 - - [11/Jun/2022 08:27:52] "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 -
+INFO:2022-06-11 08:27:52,480:192.168.159.1 - - [11/Jun/2022 08:27:52] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+INFO:2022-06-11 08:27:52,524:192.168.159.1 - - [11/Jun/2022 08:27:52] "[33mGET /job/api/jobs HTTP/1.1[0m" 404 -
+INFO:2022-06-11 08:27:52,560:192.168.159.1 - - [11/Jun/2022 08:27:52] "[33mGET /api/job/?_=1654950472297 HTTP/1.1[0m" 404 -
+INFO:2022-06-11 08:27:53,934:192.168.159.1 - - [11/Jun/2022 08:27:53] "[36mGET /static/img/favicon.ico HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:28:03,227:192.168.159.1 - - [11/Jun/2022 08:28:03] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:28:03,230:192.168.159.1 - - [11/Jun/2022 08:28:03] "[36mGET /static/css/sb-admin-2.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:28:03,232:192.168.159.1 - - [11/Jun/2022 08:28:03] "[36mGET /static/css/bootstrap.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:28:03,750:192.168.159.1 - - [11/Jun/2022 08:28:03] "GET /static/vendor/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 -
+INFO:2022-06-11 08:28:13,162:192.168.159.1 - - [11/Jun/2022 08:28:13] "[33mGET /job/api/jobs HTTP/1.1[0m" 404 -
+INFO:2022-06-11 08:28:22,526:192.168.159.1 - - [11/Jun/2022 08:28:22] "[33mGET /api HTTP/1.1[0m" 404 -
+INFO:2022-06-11 08:28:25,123:192.168.159.1 - - [11/Jun/2022 08:28:25] "[33mGET /api/ HTTP/1.1[0m" 404 -
+WARNING:2022-06-11 08:29:46,532: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:2022-06-11 08:29:46,532: * Running on http://192.168.159.136:5000/ (Press CTRL+C to quit)
+INFO:2022-06-11 08:29:46,533: * Restarting with stat
+WARNING:2022-06-11 08:29:47,244: * Debugger is active!
+INFO:2022-06-11 08:29:47,244: * Debugger PIN: 539-015-333
+INFO:2022-06-11 08:29:49,315:192.168.159.1 - - [11/Jun/2022 08:29:49] "GET /api/ HTTP/1.1" 200 -
+INFO:2022-06-11 08:29:49,426:192.168.159.1 - - [11/Jun/2022 08:29:49] "GET /swaggerui/swagger-ui.css HTTP/1.1" 200 -
+INFO:2022-06-11 08:29:49,429:192.168.159.1 - - [11/Jun/2022 08:29:49] "GET /swaggerui/droid-sans.css HTTP/1.1" 200 -
+INFO:2022-06-11 08:29:49,433:192.168.159.1 - - [11/Jun/2022 08:29:49] "GET /swaggerui/swagger-ui-bundle.js HTTP/1.1" 200 -
+INFO:2022-06-11 08:29:49,438:192.168.159.1 - - [11/Jun/2022 08:29:49] "GET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+INFO:2022-06-11 08:29:49,707:192.168.159.1 - - [11/Jun/2022 08:29:49] "GET /swaggerui/swagger-ui.css.map HTTP/1.1" 200 -
+INFO:2022-06-11 08:29:49,800:192.168.159.1 - - [11/Jun/2022 08:29:49] "GET /swaggerui/swagger-ui-bundle.js.map HTTP/1.1" 200 -
+INFO:2022-06-11 08:29:49,838:192.168.159.1 - - [11/Jun/2022 08:29:49] "GET /swaggerui/swagger-ui-standalone-preset.js.map HTTP/1.1" 200 -
+INFO:2022-06-11 08:29:49,845:192.168.159.1 - - [11/Jun/2022 08:29:49] "GET /swaggerui/favicon-32x32.png HTTP/1.1" 200 -
+INFO:2022-06-11 08:29:50,374:192.168.159.1 - - [11/Jun/2022 08:29:50] "GET /api/swagger.json HTTP/1.1" 200 -
+INFO:2022-06-11 08:29:50,376:192.168.159.1 - - [11/Jun/2022 08:29:50] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:30:10,806:192.168.159.1 - - [11/Jun/2022 08:30:10] "[32mGET /api/job HTTP/1.1[0m" 308 -
+INFO:2022-06-11 08:30:10,849:192.168.159.1 - - [11/Jun/2022 08:30:10] "GET /api/job/ HTTP/1.1" 200 -
+INFO:2022-06-11 08:30:18,589:192.168.159.1 - - [11/Jun/2022 08:30:18] "GET /api/job/?_=1654950618345 HTTP/1.1" 200 -
+INFO:2022-06-11 08:30:20,519:192.168.159.1 - - [11/Jun/2022 08:30:20] "GET /job/ HTTP/1.1" 200 -
+INFO:2022-06-11 08:30:20,586:192.168.159.1 - - [11/Jun/2022 08:30:20] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:30:20,588:192.168.159.1 - - [11/Jun/2022 08:30:20] "[36mGET /static/css/sb-admin-2.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:30:20,591:192.168.159.1 - - [11/Jun/2022 08:30:20] "[36mGET /static/css/bootstrap.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:30:20,595:192.168.159.1 - - [11/Jun/2022 08:30:20] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:30:20,599:192.168.159.1 - - [11/Jun/2022 08:30:20] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:30:20,603:192.168.159.1 - - [11/Jun/2022 08:30:20] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:30:20,608:192.168.159.1 - - [11/Jun/2022 08:30:20] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:30:20,614:192.168.159.1 - - [11/Jun/2022 08:30:20] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:30:20,615:192.168.159.1 - - [11/Jun/2022 08:30:20] "[36mGET /static/vendor/moment/moment.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:30:20,617:192.168.159.1 - - [11/Jun/2022 08:30:20] "[36mGET /static/vendor/datatables/jquery.dataTables.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:30:20,619:192.168.159.1 - - [11/Jun/2022 08:30:20] "[36mGET /static/vendor/datatables/dataTables.bootstrap4.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:30:20,624:192.168.159.1 - - [11/Jun/2022 08:30:20] "[36mGET /static/js/lagopus.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:30:20,688:192.168.159.1 - - [11/Jun/2022 08:30:20] "[36mGET /static/img/lagopus.svg HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:30:20,754:192.168.159.1 - - [11/Jun/2022 08:30:20] "[36mGET /static/img/favicon.ico HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:30:20,791:192.168.159.1 - - [11/Jun/2022 08:30:20] "[33mGET /job/api/jobs HTTP/1.1[0m" 404 -
+INFO:2022-06-11 08:30:20,808:192.168.159.1 - - [11/Jun/2022 08:30:20] "GET /api/job/?_=1654950620646 HTTP/1.1" 200 -
+INFO:2022-06-11 08:30:20,973:192.168.159.1 - - [11/Jun/2022 08:30:20] "[36mGET /static/img/favicon.ico HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:30:23,335:192.168.159.1 - - [11/Jun/2022 08:30:23] "GET /job/ HTTP/1.1" 200 -
+INFO:2022-06-11 08:30:23,432:192.168.159.1 - - [11/Jun/2022 08:30:23] "[36mGET /static/css/sb-admin-2.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:30:23,434:192.168.159.1 - - [11/Jun/2022 08:30:23] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:30:23,436:192.168.159.1 - - [11/Jun/2022 08:30:23] "[36mGET /static/css/bootstrap.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:30:23,440:192.168.159.1 - - [11/Jun/2022 08:30:23] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:30:23,444:192.168.159.1 - - [11/Jun/2022 08:30:23] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:30:23,447:192.168.159.1 - - [11/Jun/2022 08:30:23] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:30:23,450:192.168.159.1 - - [11/Jun/2022 08:30:23] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:30:23,454:192.168.159.1 - - [11/Jun/2022 08:30:23] "[36mGET /static/vendor/moment/moment.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:30:23,457:192.168.159.1 - - [11/Jun/2022 08:30:23] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:30:23,459:192.168.159.1 - - [11/Jun/2022 08:30:23] "[36mGET /static/vendor/datatables/jquery.dataTables.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:30:23,464:192.168.159.1 - - [11/Jun/2022 08:30:23] "[36mGET /static/vendor/datatables/dataTables.bootstrap4.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:30:23,467:192.168.159.1 - - [11/Jun/2022 08:30:23] "[36mGET /static/js/lagopus.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:30:23,498:192.168.159.1 - - [11/Jun/2022 08:30:23] "[36mGET /static/img/lagopus.svg HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:30:23,553:192.168.159.1 - - [11/Jun/2022 08:30:23] "[36mGET /static/img/favicon.ico HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:30:23,606:192.168.159.1 - - [11/Jun/2022 08:30:23] "[33mGET /job/api/jobs HTTP/1.1[0m" 404 -
+INFO:2022-06-11 08:30:23,628:192.168.159.1 - - [11/Jun/2022 08:30:23] "GET /api/job/?_=1654950623454 HTTP/1.1" 200 -
+INFO:2022-06-11 08:30:23,805:192.168.159.1 - - [11/Jun/2022 08:30:23] "[36mGET /static/img/favicon.ico HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:31:53,087:192.168.159.1 - - [11/Jun/2022 08:31:53] "[32mGET /api HTTP/1.1[0m" 308 -
+INFO:2022-06-11 08:31:53,119:192.168.159.1 - - [11/Jun/2022 08:31:53] "GET /api/ HTTP/1.1" 200 -
+INFO:2022-06-11 08:31:53,215:192.168.159.1 - - [11/Jun/2022 08:31:53] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:31:53,217:192.168.159.1 - - [11/Jun/2022 08:31:53] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:31:53,219:192.168.159.1 - - [11/Jun/2022 08:31:53] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:31:53,223:192.168.159.1 - - [11/Jun/2022 08:31:53] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:31:53,446:192.168.159.1 - - [11/Jun/2022 08:31:53] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:31:53,649:192.168.159.1 - - [11/Jun/2022 08:31:53] "GET /api/swagger.json HTTP/1.1" 200 -
+INFO:2022-06-11 08:35:19,056:192.168.159.1 - - [11/Jun/2022 08:35:19] "[35m[1mPOST /api/job/ HTTP/1.1[0m" 500 -
+WARNING:2022-06-11 08:36:58,419: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:2022-06-11 08:36:58,419: * Running on http://192.168.159.136:5000/ (Press CTRL+C to quit)
+INFO:2022-06-11 08:36:58,419: * Restarting with stat
+WARNING:2022-06-11 08:36:59,191: * Debugger is active!
+INFO:2022-06-11 08:36:59,192: * Debugger PIN: 539-015-333
+DEBUG:2022-06-11 08:37:04,898:save abi file to f/opt/faint/job/test.2022-06-11-08-37-04/src/test.abi
+INFO:2022-06-11 08:37:04,906:192.168.159.1 - - [11/Jun/2022 08:37:04] "[35m[1mPOST /api/job/ HTTP/1.1[0m" 500 -
+WARNING:2022-06-11 08:39:24,283: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:2022-06-11 08:39:24,283: * Running on http://192.168.159.136:5000/ (Press CTRL+C to quit)
+INFO:2022-06-11 08:39:24,284: * Restarting with stat
+WARNING:2022-06-11 08:39:25,243: * Debugger is active!
+INFO:2022-06-11 08:39:25,244: * Debugger PIN: 539-015-333
+DEBUG:2022-06-11 08:39:26,861:save abi file to f/opt/faint/job/test.2022-06-11-08-39-26/src/test.abi
+INFO:2022-06-11 08:39:26,871:192.168.159.1 - - [11/Jun/2022 08:39:26] "[35m[1mPOST /api/job/ HTTP/1.1[0m" 500 -
+INFO:2022-06-11 08:39:58,468:192.168.159.1 - - [11/Jun/2022 08:39:58] "[31m[1mPOST /api/job/ HTTP/1.1[0m" 400 -
+INFO:2022-06-11 08:40:29,323:192.168.159.1 - - [11/Jun/2022 08:40:29] "[31m[1mPOST /api/job/ HTTP/1.1[0m" 400 -
+WARNING:2022-06-11 08:42:50,540: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:2022-06-11 08:42:50,540: * Running on http://192.168.159.136:5000/ (Press CTRL+C to quit)
+INFO:2022-06-11 08:42:50,541: * Restarting with stat
+WARNING:2022-06-11 08:42:51,299: * Debugger is active!
+INFO:2022-06-11 08:42:51,300: * Debugger PIN: 539-015-333
+DEBUG:2022-06-11 08:42:53,599:save abi file to f/opt/faint/job/test.2022-06-11-08-42-53/src/test.abi
+INFO:2022-06-11 08:42:53,711:192.168.159.1 - - [11/Jun/2022 08:42:53] "[35m[1mPOST /api/job/ HTTP/1.1[0m" 500 -
+WARNING:2022-06-11 08:53:53,058: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:2022-06-11 08:53:53,058: * Running on http://192.168.159.136:5000/ (Press CTRL+C to quit)
+INFO:2022-06-11 08:53:53,059: * Restarting with stat
+WARNING:2022-06-11 08:53:53,974: * Debugger is active!
+INFO:2022-06-11 08:53:53,974: * Debugger PIN: 539-015-333
+DEBUG:2022-06-11 08:53:55,846:save abi file to f/opt/faint/job/test.2022-06-11-08-53-55/src/test.abi
+DEBUG:2022-06-11 08:53:55,846:abi: [{'constant': True, 'inputs': [], 'name': 'name', 'outputs': [{'name': '', 'type': 'string'}], 'payable': False, 'type': 'function'}, {'constant': False, 'inputs': [{'name': '_spender', 'type': 'address'}, {'name': '_value', 'type': 'uint256'}], 'name': 'approve', 'outputs': [{'name': 'success', 'type': 'bool'}], 'payable': False, 'type': 'function'}, {'constant': True, 'inputs': [], 'name': 'totalSupply', 'outputs': [{'name': '', 'type': 'uint256'}], 'payable': False, 'type': 'function'}, {'constant': False, 'inputs': [{'name': '_from', 'type': 'address'}, {'name': '_to', 'type': 'address'}, {'name': '_value', 'type': 'uint256'}], 'name': 'transferFrom', 'outputs': [{'name': 'success', 'type': 'bool'}], 'payable': False, 'type': 'function'}, {'constant': True, 'inputs': [], 'name': 'decimals', 'outputs': [{'name': '', 'type': 'uint8'}], 'payable': False, 'type': 'function'}, {'constant': False, 'inputs': [{'name': 'amount', 'type': 'uint256'}], 'name': 'withdrawEther', 'outputs': [], 'payable': False, 'type': 'function'}, {'constant': False, 'inputs': [{'name': '_value', 'type': 'uint256'}], 'name': 'burn', 'outputs': [{'name': 'success', 'type': 'bool'}], 'payable': False, 'type': 'function'}, {'constant': False, 'inputs': [{'name': '_value', 'type': 'uint256'}], 'name': 'unfreeze', 'outputs': [{'name': 'success', 'type': 'bool'}], 'payable': False, 'type': 'function'}, {'constant': True, 'inputs': [{'name': '', 'type': 'address'}], 'name': 'balanceOf', 'outputs': [{'name': '', 'type': 'uint256'}], 'payable': False, 'type': 'function'}, {'constant': True, 'inputs': [], 'name': 'owner', 'outputs': [{'name': '', 'type': 'address'}], 'payable': False, 'type': 'function'}, {'constant': True, 'inputs': [], 'name': 'symbol', 'outputs': [{'name': '', 'type': 'string'}], 'payable': False, 'type': 'function'}, {'constant': False, 'inputs': [{'name': '_to', 'type': 'address'}, {'name': '_value', 'type': 'uint256'}], 'name': 'transfer', 'outputs': [], 'payable': False, 'type': 'function'}, {'constant': True, 'inputs': [{'name': '', 'type': 'address'}], 'name': 'freezeOf', 'outputs': [{'name': '', 'type': 'uint256'}], 'payable': False, 'type': 'function'}, {'constant': False, 'inputs': [{'name': '_value', 'type': 'uint256'}], 'name': 'freeze', 'outputs': [{'name': 'success', 'type': 'bool'}], 'payable': False, 'type': 'function'}, {'constant': True, 'inputs': [{'name': '', 'type': 'address'}, {'name': '', 'type': 'address'}], 'name': 'allowance', 'outputs': [{'name': '', 'type': 'uint256'}], 'payable': False, 'type': 'function'}, {'inputs': [{'name': 'initialSupply', 'type': 'uint256'}, {'name': 'tokenName', 'type': 'string'}, {'name': 'decimalUnits', 'type': 'uint8'}, {'name': 'tokenSymbol', 'type': 'string'}], 'payable': False, 'type': 'constructor'}, {'payable': True, 'type': 'fallback'}, {'anonymous': False, 'inputs': [{'indexed': True, 'name': 'from', 'type': 'address'}, {'indexed': True, 'name': 'to', 'type': 'address'}, {'indexed': False, 'name': 'value', 'type': 'uint256'}], 'name': 'Transfer', 'type': 'event'}, {'anonymous': False, 'inputs': [{'indexed': True, 'name': 'from', 'type': 'address'}, {'indexed': False, 'name': 'value', 'type': 'uint256'}], 'name': 'Burn', 'type': 'event'}, {'anonymous': False, 'inputs': [{'indexed': True, 'name': 'from', 'type': 'address'}, {'indexed': False, 'name': 'value', 'type': 'uint256'}], 'name': 'Freeze', 'type': 'event'}, {'anonymous': False, 'inputs': [{'indexed': True, 'name': 'from', 'type': 'address'}, {'indexed': False, 'name': 'value', 'type': 'uint256'}], 'name': 'Unfreeze', 'type': 'event'}]
+INFO:2022-06-11 08:53:55,856:192.168.159.1 - - [11/Jun/2022 08:53:55] "[35m[1mPOST /api/job/ HTTP/1.1[0m" 500 -
+WARNING:2022-06-11 08:54:58,667: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:2022-06-11 08:54:58,667: * Running on http://192.168.159.136:5000/ (Press CTRL+C to quit)
+INFO:2022-06-11 08:54:58,668: * Restarting with stat
+WARNING:2022-06-11 08:54:59,606: * Debugger is active!
+INFO:2022-06-11 08:54:59,607: * Debugger PIN: 539-015-333
+DEBUG:2022-06-11 08:55:00,146:save abi file to f/opt/faint/job/test.2022-06-11-08-55-00/src/test.abi
+DEBUG:2022-06-11 08:55:00,146:abi: [{'constant': True, 'inputs': [], 'name': 'name', 'outputs': [{'name': '', 'type': 'string'}], 'payable': False, 'type': 'function'}, {'constant': False, 'inputs': [{'name': '_spender', 'type': 'address'}, {'name': '_value', 'type': 'uint256'}], 'name': 'approve', 'outputs': [{'name': 'success', 'type': 'bool'}], 'payable': False, 'type': 'function'}, {'constant': True, 'inputs': [], 'name': 'totalSupply', 'outputs': [{'name': '', 'type': 'uint256'}], 'payable': False, 'type': 'function'}, {'constant': False, 'inputs': [{'name': '_from', 'type': 'address'}, {'name': '_to', 'type': 'address'}, {'name': '_value', 'type': 'uint256'}], 'name': 'transferFrom', 'outputs': [{'name': 'success', 'type': 'bool'}], 'payable': False, 'type': 'function'}, {'constant': True, 'inputs': [], 'name': 'decimals', 'outputs': [{'name': '', 'type': 'uint8'}], 'payable': False, 'type': 'function'}, {'constant': False, 'inputs': [{'name': 'amount', 'type': 'uint256'}], 'name': 'withdrawEther', 'outputs': [], 'payable': False, 'type': 'function'}, {'constant': False, 'inputs': [{'name': '_value', 'type': 'uint256'}], 'name': 'burn', 'outputs': [{'name': 'success', 'type': 'bool'}], 'payable': False, 'type': 'function'}, {'constant': False, 'inputs': [{'name': '_value', 'type': 'uint256'}], 'name': 'unfreeze', 'outputs': [{'name': 'success', 'type': 'bool'}], 'payable': False, 'type': 'function'}, {'constant': True, 'inputs': [{'name': '', 'type': 'address'}], 'name': 'balanceOf', 'outputs': [{'name': '', 'type': 'uint256'}], 'payable': False, 'type': 'function'}, {'constant': True, 'inputs': [], 'name': 'owner', 'outputs': [{'name': '', 'type': 'address'}], 'payable': False, 'type': 'function'}, {'constant': True, 'inputs': [], 'name': 'symbol', 'outputs': [{'name': '', 'type': 'string'}], 'payable': False, 'type': 'function'}, {'constant': False, 'inputs': [{'name': '_to', 'type': 'address'}, {'name': '_value', 'type': 'uint256'}], 'name': 'transfer', 'outputs': [], 'payable': False, 'type': 'function'}, {'constant': True, 'inputs': [{'name': '', 'type': 'address'}], 'name': 'freezeOf', 'outputs': [{'name': '', 'type': 'uint256'}], 'payable': False, 'type': 'function'}, {'constant': False, 'inputs': [{'name': '_value', 'type': 'uint256'}], 'name': 'freeze', 'outputs': [{'name': 'success', 'type': 'bool'}], 'payable': False, 'type': 'function'}, {'constant': True, 'inputs': [{'name': '', 'type': 'address'}, {'name': '', 'type': 'address'}], 'name': 'allowance', 'outputs': [{'name': '', 'type': 'uint256'}], 'payable': False, 'type': 'function'}, {'inputs': [{'name': 'initialSupply', 'type': 'uint256'}, {'name': 'tokenName', 'type': 'string'}, {'name': 'decimalUnits', 'type': 'uint8'}, {'name': 'tokenSymbol', 'type': 'string'}], 'payable': False, 'type': 'constructor'}, {'payable': True, 'type': 'fallback'}, {'anonymous': False, 'inputs': [{'indexed': True, 'name': 'from', 'type': 'address'}, {'indexed': True, 'name': 'to', 'type': 'address'}, {'indexed': False, 'name': 'value', 'type': 'uint256'}], 'name': 'Transfer', 'type': 'event'}, {'anonymous': False, 'inputs': [{'indexed': True, 'name': 'from', 'type': 'address'}, {'indexed': False, 'name': 'value', 'type': 'uint256'}], 'name': 'Burn', 'type': 'event'}, {'anonymous': False, 'inputs': [{'indexed': True, 'name': 'from', 'type': 'address'}, {'indexed': False, 'name': 'value', 'type': 'uint256'}], 'name': 'Freeze', 'type': 'event'}, {'anonymous': False, 'inputs': [{'indexed': True, 'name': 'from', 'type': 'address'}, {'indexed': False, 'name': 'value', 'type': 'uint256'}], 'name': 'Unfreeze', 'type': 'event'}]
+DEBUG:2022-06-11 08:55:00,146:save bin file to f/opt/faint/job/test.2022-06-11-08-55-00/src/test.bin
+DEBUG:2022-06-11 08:55:00,150:Create job 'test.2022-06-11-08-55-00'
+INFO:2022-06-11 08:55:00,152:192.168.159.1 - - [11/Jun/2022 08:55:00] "POST /api/job/ HTTP/1.1" 200 -
+INFO:2022-06-11 08:56:22,768:192.168.159.1 - - [11/Jun/2022 08:56:22] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:56:22,851:192.168.159.1 - - [11/Jun/2022 08:56:22] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:56:22,854:192.168.159.1 - - [11/Jun/2022 08:56:22] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:56:22,857:192.168.159.1 - - [11/Jun/2022 08:56:22] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:56:23,106:192.168.159.1 - - [11/Jun/2022 08:56:23] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:56:24,168:192.168.159.1 - - [11/Jun/2022 08:56:24] "GET /api/swagger.json HTTP/1.1" 200 -
+INFO:2022-06-11 08:56:52,188:192.168.159.1 - - [11/Jun/2022 08:56:52] "GET /job/ HTTP/1.1" 200 -
+INFO:2022-06-11 08:56:52,299:192.168.159.1 - - [11/Jun/2022 08:56:52] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:56:52,302:192.168.159.1 - - [11/Jun/2022 08:56:52] "[36mGET /static/css/sb-admin-2.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:56:52,306:192.168.159.1 - - [11/Jun/2022 08:56:52] "[36mGET /static/css/bootstrap.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:56:52,310:192.168.159.1 - - [11/Jun/2022 08:56:52] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:56:52,313:192.168.159.1 - - [11/Jun/2022 08:56:52] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:56:52,316:192.168.159.1 - - [11/Jun/2022 08:56:52] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:56:52,319:192.168.159.1 - - [11/Jun/2022 08:56:52] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:56:52,326:192.168.159.1 - - [11/Jun/2022 08:56:52] "[36mGET /static/vendor/moment/moment.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:56:52,330:192.168.159.1 - - [11/Jun/2022 08:56:52] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:56:52,332:192.168.159.1 - - [11/Jun/2022 08:56:52] "[36mGET /static/vendor/datatables/jquery.dataTables.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:56:52,334:192.168.159.1 - - [11/Jun/2022 08:56:52] "[36mGET /static/vendor/datatables/dataTables.bootstrap4.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:56:52,337:192.168.159.1 - - [11/Jun/2022 08:56:52] "[36mGET /static/js/lagopus.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:56:52,460:192.168.159.1 - - [11/Jun/2022 08:56:52] "[36mGET /static/img/lagopus.svg HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:56:53,105:192.168.159.1 - - [11/Jun/2022 08:56:53] "[36mGET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:56:53,142:192.168.159.1 - - [11/Jun/2022 08:56:53] "[36mGET /static/img/favicon.ico HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:56:53,309:192.168.159.1 - - [11/Jun/2022 08:56:53] "[33mGET /job/api/jobs HTTP/1.1[0m" 404 -
+INFO:2022-06-11 08:56:53,341:192.168.159.1 - - [11/Jun/2022 08:56:53] "GET /api/job/?_=1654952212451 HTTP/1.1" 200 -
+INFO:2022-06-11 08:56:58,292:192.168.159.1 - - [11/Jun/2022 08:56:58] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:56:58,294:192.168.159.1 - - [11/Jun/2022 08:56:58] "[36mGET /static/css/sb-admin-2.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:56:58,296:192.168.159.1 - - [11/Jun/2022 08:56:58] "[36mGET /static/css/bootstrap.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:56:58,820:192.168.159.1 - - [11/Jun/2022 08:56:58] "GET /static/vendor/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 -
+WARNING:2022-06-11 08:58:34,126: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:2022-06-11 08:58:34,126: * Running on http://192.168.159.136:5000/ (Press CTRL+C to quit)
+INFO:2022-06-11 08:58:34,127: * Restarting with stat
+WARNING:2022-06-11 08:58:34,877: * Debugger is active!
+INFO:2022-06-11 08:58:34,877: * Debugger PIN: 539-015-333
+INFO:2022-06-11 08:58:35,943:192.168.159.1 - - [11/Jun/2022 08:58:35] "GET /job/ HTTP/1.1" 200 -
+INFO:2022-06-11 08:58:36,079:192.168.159.1 - - [11/Jun/2022 08:58:36] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:58:36,082:192.168.159.1 - - [11/Jun/2022 08:58:36] "[36mGET /static/css/sb-admin-2.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:58:36,084:192.168.159.1 - - [11/Jun/2022 08:58:36] "[36mGET /static/css/bootstrap.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:58:36,089:192.168.159.1 - - [11/Jun/2022 08:58:36] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:58:36,094:192.168.159.1 - - [11/Jun/2022 08:58:36] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:58:36,097:192.168.159.1 - - [11/Jun/2022 08:58:36] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:58:36,102:192.168.159.1 - - [11/Jun/2022 08:58:36] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:58:36,109:192.168.159.1 - - [11/Jun/2022 08:58:36] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:58:36,112:192.168.159.1 - - [11/Jun/2022 08:58:36] "[36mGET /static/vendor/moment/moment.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:58:36,113:192.168.159.1 - - [11/Jun/2022 08:58:36] "[36mGET /static/vendor/datatables/jquery.dataTables.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:58:36,117:192.168.159.1 - - [11/Jun/2022 08:58:36] "[36mGET /static/js/lagopus.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:58:36,120:192.168.159.1 - - [11/Jun/2022 08:58:36] "[36mGET /static/vendor/datatables/dataTables.bootstrap4.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:58:36,271:192.168.159.1 - - [11/Jun/2022 08:58:36] "[36mGET /static/img/lagopus.svg HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:58:36,902:192.168.159.1 - - [11/Jun/2022 08:58:36] "GET /static/vendor/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 -
+INFO:2022-06-11 08:58:36,957:192.168.159.1 - - [11/Jun/2022 08:58:36] "[36mGET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:58:37,047:192.168.159.1 - - [11/Jun/2022 08:58:37] "[36mGET /static/img/favicon.ico HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:58:37,197:192.168.159.1 - - [11/Jun/2022 08:58:37] "[33mGET /job/api/jobs HTTP/1.1[0m" 404 -
+INFO:2022-06-11 08:58:37,236:192.168.159.1 - - [11/Jun/2022 08:58:37] "GET /api/job/?_=1654952316331 HTTP/1.1" 200 -
+INFO:2022-06-11 08:58:37,578:192.168.159.1 - - [11/Jun/2022 08:58:37] "[36mGET /static/img/favicon.ico HTTP/1.1[0m" 304 -
+WARNING:2022-06-11 08:59:53,958: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:2022-06-11 08:59:53,958: * Running on http://192.168.159.136:5000/ (Press CTRL+C to quit)
+INFO:2022-06-11 08:59:53,958: * Restarting with stat
+WARNING:2022-06-11 08:59:54,712: * Debugger is active!
+INFO:2022-06-11 08:59:54,712: * Debugger PIN: 539-015-333
+INFO:2022-06-11 08:59:57,957:192.168.159.1 - - [11/Jun/2022 08:59:57] "GET /job/ HTTP/1.1" 200 -
+INFO:2022-06-11 08:59:58,077:192.168.159.1 - - [11/Jun/2022 08:59:58] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:59:58,079:192.168.159.1 - - [11/Jun/2022 08:59:58] "[36mGET /static/css/sb-admin-2.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:59:58,082:192.168.159.1 - - [11/Jun/2022 08:59:58] "[36mGET /static/css/bootstrap.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:59:58,086:192.168.159.1 - - [11/Jun/2022 08:59:58] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:59:58,094:192.168.159.1 - - [11/Jun/2022 08:59:58] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:59:58,098:192.168.159.1 - - [11/Jun/2022 08:59:58] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:59:58,105:192.168.159.1 - - [11/Jun/2022 08:59:58] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:59:58,114:192.168.159.1 - - [11/Jun/2022 08:59:58] "[36mGET /static/vendor/moment/moment.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:59:58,119:192.168.159.1 - - [11/Jun/2022 08:59:58] "[36mGET /static/vendor/datatables/jquery.dataTables.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:59:58,121:192.168.159.1 - - [11/Jun/2022 08:59:58] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:59:58,123:192.168.159.1 - - [11/Jun/2022 08:59:58] "[36mGET /static/vendor/datatables/dataTables.bootstrap4.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:59:58,126:192.168.159.1 - - [11/Jun/2022 08:59:58] "[36mGET /static/js/lagopus.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:59:58,267:192.168.159.1 - - [11/Jun/2022 08:59:58] "[36mGET /static/img/lagopus.svg HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:59:58,415:192.168.159.1 - - [11/Jun/2022 08:59:58] "GET /static/vendor/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 -
+INFO:2022-06-11 08:59:58,419:192.168.159.1 - - [11/Jun/2022 08:59:58] "[36mGET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:59:58,442:192.168.159.1 - - [11/Jun/2022 08:59:58] "[36mGET /static/img/favicon.ico HTTP/1.1[0m" 304 -
+INFO:2022-06-11 08:59:58,636:192.168.159.1 - - [11/Jun/2022 08:59:58] "[33mGET /job/api/jobs HTTP/1.1[0m" 404 -
+INFO:2022-06-11 08:59:58,642:192.168.159.1 - - [11/Jun/2022 08:59:58] "GET /api/job/?_=1654952398307 HTTP/1.1" 200 -
+INFO:2022-06-11 08:59:58,969:192.168.159.1 - - [11/Jun/2022 08:59:58] "[36mGET /static/img/favicon.ico HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:00:44,400:192.168.159.1 - - [11/Jun/2022 09:00:44] "[35m[1mPOST /api/job/test HTTP/1.1[0m" 500 -
+WARNING:2022-06-11 09:01:37,093: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:2022-06-11 09:01:37,093: * Running on http://192.168.159.136:5000/ (Press CTRL+C to quit)
+INFO:2022-06-11 09:01:37,094: * Restarting with stat
+WARNING:2022-06-11 09:01:37,831: * Debugger is active!
+INFO:2022-06-11 09:01:37,831: * Debugger PIN: 539-015-333
+INFO:2022-06-11 09:01:43,899:192.168.159.1 - - [11/Jun/2022 09:01:43] "[35m[1mPOST /api/job/test/ HTTP/1.1[0m" 500 -
+WARNING:2022-06-11 09:03:04,787: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:2022-06-11 09:03:04,787: * Running on http://192.168.159.136:5000/ (Press CTRL+C to quit)
+INFO:2022-06-11 09:03:04,787: * Restarting with stat
+WARNING:2022-06-11 09:03:05,526: * Debugger is active!
+INFO:2022-06-11 09:03:05,526: * Debugger PIN: 539-015-333
+INFO:2022-06-11 09:03:07,405:192.168.159.1 - - [11/Jun/2022 09:03:07] "[35m[1mPOST /api/job/test/ HTTP/1.1[0m" 500 -
+WARNING:2022-06-11 09:04:56,899: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:2022-06-11 09:04:56,899: * Running on http://192.168.159.136:5000/ (Press CTRL+C to quit)
+INFO:2022-06-11 09:04:56,900: * Restarting with stat
+WARNING:2022-06-11 09:04:57,614: * Debugger is active!
+INFO:2022-06-11 09:04:57,615: * Debugger PIN: 539-015-333
+INFO:2022-06-11 09:05:02,263:192.168.159.1 - - [11/Jun/2022 09:05:02] "[35m[1mPOST /api/job/test/ HTTP/1.1[0m" 500 -
+INFO:2022-06-11 09:07:23,620:192.168.159.1 - - [11/Jun/2022 09:07:23] "GET /api/job/ HTTP/1.1" 200 -
+INFO:2022-06-11 09:07:38,775:192.168.159.1 - - [11/Jun/2022 09:07:38] "GET /job/ HTTP/1.1" 200 -
+INFO:2022-06-11 09:07:39,008:192.168.159.1 - - [11/Jun/2022 09:07:39] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:07:39,010:192.168.159.1 - - [11/Jun/2022 09:07:39] "[36mGET /static/css/sb-admin-2.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:07:39,014:192.168.159.1 - - [11/Jun/2022 09:07:39] "[36mGET /static/css/bootstrap.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:07:39,024:192.168.159.1 - - [11/Jun/2022 09:07:39] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:07:39,025:192.168.159.1 - - [11/Jun/2022 09:07:39] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:07:39,027:192.168.159.1 - - [11/Jun/2022 09:07:39] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:07:39,031:192.168.159.1 - - [11/Jun/2022 09:07:39] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:07:39,035:192.168.159.1 - - [11/Jun/2022 09:07:39] "[36mGET /static/vendor/moment/moment.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:07:39,041:192.168.159.1 - - [11/Jun/2022 09:07:39] "[36mGET /static/vendor/datatables/jquery.dataTables.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:07:39,047:192.168.159.1 - - [11/Jun/2022 09:07:39] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:07:39,048:192.168.159.1 - - [11/Jun/2022 09:07:39] "[36mGET /static/vendor/datatables/dataTables.bootstrap4.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:07:39,051:192.168.159.1 - - [11/Jun/2022 09:07:39] "[36mGET /static/js/lagopus.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:07:39,061:192.168.159.1 - - [11/Jun/2022 09:07:39] "[36mGET /static/img/lagopus.svg HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:07:39,162:192.168.159.1 - - [11/Jun/2022 09:07:39] "[36mGET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:07:39,171:192.168.159.1 - - [11/Jun/2022 09:07:39] "[36mGET /static/img/favicon.ico HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:07:39,316:192.168.159.1 - - [11/Jun/2022 09:07:39] "[33mGET /job/api/jobs HTTP/1.1[0m" 404 -
+INFO:2022-06-11 09:07:39,337:192.168.159.1 - - [11/Jun/2022 09:07:39] "GET /api/job/?_=1654952859061 HTTP/1.1" 200 -
+INFO:2022-06-11 09:07:39,600:192.168.159.1 - - [11/Jun/2022 09:07:39] "[36mGET /static/img/favicon.ico HTTP/1.1[0m" 304 -
+WARNING:2022-06-11 09:07:53,596: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:2022-06-11 09:07:53,596: * Running on http://192.168.159.136:5000/ (Press CTRL+C to quit)
+INFO:2022-06-11 09:07:53,597: * Restarting with stat
+WARNING:2022-06-11 09:07:54,334: * Debugger is active!
+INFO:2022-06-11 09:07:54,334: * Debugger PIN: 539-015-333
+INFO:2022-06-11 09:08:00,582:192.168.159.1 - - [11/Jun/2022 09:08:00] "GET /api/job/ HTTP/1.1" 200 -
+INFO:2022-06-11 09:08:10,948:192.168.159.1 - - [11/Jun/2022 09:08:10] "GET /job/ HTTP/1.1" 200 -
+INFO:2022-06-11 09:08:11,029:192.168.159.1 - - [11/Jun/2022 09:08:11] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:08:11,032:192.168.159.1 - - [11/Jun/2022 09:08:11] "[36mGET /static/css/sb-admin-2.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:08:11,036:192.168.159.1 - - [11/Jun/2022 09:08:11] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:08:11,037:192.168.159.1 - - [11/Jun/2022 09:08:11] "[36mGET /static/css/bootstrap.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:08:11,040:192.168.159.1 - - [11/Jun/2022 09:08:11] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:08:11,134:192.168.159.1 - - [11/Jun/2022 09:08:11] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:08:11,138:192.168.159.1 - - [11/Jun/2022 09:08:11] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:08:11,146:192.168.159.1 - - [11/Jun/2022 09:08:11] "[36mGET /static/vendor/moment/moment.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:08:11,148:192.168.159.1 - - [11/Jun/2022 09:08:11] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:08:11,151:192.168.159.1 - - [11/Jun/2022 09:08:11] "[36mGET /static/vendor/datatables/jquery.dataTables.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:08:11,154:192.168.159.1 - - [11/Jun/2022 09:08:11] "[36mGET /static/vendor/datatables/dataTables.bootstrap4.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:08:11,157:192.168.159.1 - - [11/Jun/2022 09:08:11] "[36mGET /static/js/lagopus.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:08:11,210:192.168.159.1 - - [11/Jun/2022 09:08:11] "[36mGET /static/img/lagopus.svg HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:08:11,338:192.168.159.1 - - [11/Jun/2022 09:08:11] "[36mGET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:08:11,417:192.168.159.1 - - [11/Jun/2022 09:08:11] "[36mGET /static/img/favicon.ico HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:08:11,511:192.168.159.1 - - [11/Jun/2022 09:08:11] "[33mGET /job/api/jobs HTTP/1.1[0m" 404 -
+INFO:2022-06-11 09:08:11,534:192.168.159.1 - - [11/Jun/2022 09:08:11] "GET /api/job/?_=1654952891224 HTTP/1.1" 200 -
+INFO:2022-06-11 09:08:11,812:192.168.159.1 - - [11/Jun/2022 09:08:11] "[36mGET /static/img/favicon.ico HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:08:17,221:192.168.159.1 - - [11/Jun/2022 09:08:17] "GET /api/job/ HTTP/1.1" 200 -
+INFO:2022-06-11 09:08:27,572:192.168.159.1 - - [11/Jun/2022 09:08:27] "GET /job/ HTTP/1.1" 200 -
+INFO:2022-06-11 09:08:27,654:192.168.159.1 - - [11/Jun/2022 09:08:27] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:08:27,657:192.168.159.1 - - [11/Jun/2022 09:08:27] "[36mGET /static/css/sb-admin-2.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:08:27,660:192.168.159.1 - - [11/Jun/2022 09:08:27] "[36mGET /static/css/bootstrap.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:08:27,667:192.168.159.1 - - [11/Jun/2022 09:08:27] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:08:27,670:192.168.159.1 - - [11/Jun/2022 09:08:27] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:08:27,678:192.168.159.1 - - [11/Jun/2022 09:08:27] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:08:27,680:192.168.159.1 - - [11/Jun/2022 09:08:27] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:08:27,686:192.168.159.1 - - [11/Jun/2022 09:08:27] "[36mGET /static/vendor/moment/moment.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:08:27,698:192.168.159.1 - - [11/Jun/2022 09:08:27] "[36mGET /static/vendor/datatables/jquery.dataTables.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:08:27,701:192.168.159.1 - - [11/Jun/2022 09:08:27] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:08:27,717:192.168.159.1 - - [11/Jun/2022 09:08:27] "[36mGET /static/vendor/datatables/dataTables.bootstrap4.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:08:27,721:192.168.159.1 - - [11/Jun/2022 09:08:27] "[36mGET /static/js/lagopus.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:08:27,833:192.168.159.1 - - [11/Jun/2022 09:08:27] "[36mGET /static/img/lagopus.svg HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:08:27,919:192.168.159.1 - - [11/Jun/2022 09:08:27] "[36mGET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:08:27,977:192.168.159.1 - - [11/Jun/2022 09:08:27] "[36mGET /static/img/favicon.ico HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:08:28,084:192.168.159.1 - - [11/Jun/2022 09:08:28] "[33mGET /job/api/jobs HTTP/1.1[0m" 404 -
+INFO:2022-06-11 09:08:28,105:192.168.159.1 - - [11/Jun/2022 09:08:28] "GET /api/job/?_=1654952907837 HTTP/1.1" 200 -
+INFO:2022-06-11 09:08:28,397:192.168.159.1 - - [11/Jun/2022 09:08:28] "[36mGET /static/img/favicon.ico HTTP/1.1[0m" 304 -
+WARNING:2022-06-11 09:08:44,002: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:2022-06-11 09:08:44,002: * Running on http://192.168.159.136:5000/ (Press CTRL+C to quit)
+INFO:2022-06-11 09:08:44,003: * Restarting with stat
+WARNING:2022-06-11 09:08:44,830: * Debugger is active!
+INFO:2022-06-11 09:08:44,831: * Debugger PIN: 539-015-333
+INFO:2022-06-11 09:08:46,205:192.168.159.1 - - [11/Jun/2022 09:08:46] "GET /api/job/ HTTP/1.1" 200 -
+INFO:2022-06-11 09:08:50,263:192.168.159.1 - - [11/Jun/2022 09:08:50] "GET /api/job/ HTTP/1.1" 200 -
+INFO:2022-06-11 09:08:51,062:192.168.159.1 - - [11/Jun/2022 09:08:51] "GET /api/job/ HTTP/1.1" 200 -
+INFO:2022-06-11 09:08:51,798:192.168.159.1 - - [11/Jun/2022 09:08:51] "GET /api/job/ HTTP/1.1" 200 -
+INFO:2022-06-11 09:08:52,454:192.168.159.1 - - [11/Jun/2022 09:08:52] "GET /api/job/ HTTP/1.1" 200 -
+INFO:2022-06-11 09:08:53,128:192.168.159.1 - - [11/Jun/2022 09:08:53] "GET /api/job/ HTTP/1.1" 200 -
+INFO:2022-06-11 09:09:05,009:192.168.159.1 - - [11/Jun/2022 09:09:05] "GET /job/ HTTP/1.1" 200 -
+INFO:2022-06-11 09:09:05,130:192.168.159.1 - - [11/Jun/2022 09:09:05] "GET /static/css/sb-admin-2.css HTTP/1.1" 200 -
+INFO:2022-06-11 09:09:05,226:192.168.159.1 - - [11/Jun/2022 09:09:05] "GET /static/css/bootstrap.css HTTP/1.1" 200 -
+INFO:2022-06-11 09:09:05,230:192.168.159.1 - - [11/Jun/2022 09:09:05] "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 200 -
+INFO:2022-06-11 09:09:05,230:192.168.159.1 - - [11/Jun/2022 09:09:05] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 -
+INFO:2022-06-11 09:09:05,239:192.168.159.1 - - [11/Jun/2022 09:09:05] "GET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+INFO:2022-06-11 09:09:05,243:192.168.159.1 - - [11/Jun/2022 09:09:05] "GET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1" 200 -
+INFO:2022-06-11 09:09:05,249:192.168.159.1 - - [11/Jun/2022 09:09:05] "GET /static/js/sb-admin-2.min.js HTTP/1.1" 200 -
+INFO:2022-06-11 09:09:05,256:192.168.159.1 - - [11/Jun/2022 09:09:05] "GET /static/vendor/moment/moment.min.js HTTP/1.1" 200 -
+INFO:2022-06-11 09:09:05,264:192.168.159.1 - - [11/Jun/2022 09:09:05] "GET /static/vendor/chart.js/Chart.min.js HTTP/1.1" 200 -
+INFO:2022-06-11 09:09:05,268:192.168.159.1 - - [11/Jun/2022 09:09:05] "GET /static/vendor/datatables/jquery.dataTables.js HTTP/1.1" 200 -
+INFO:2022-06-11 09:09:05,276:192.168.159.1 - - [11/Jun/2022 09:09:05] "GET /static/vendor/datatables/dataTables.bootstrap4.min.js HTTP/1.1" 200 -
+INFO:2022-06-11 09:09:05,278:192.168.159.1 - - [11/Jun/2022 09:09:05] "GET /static/js/lagopus.js HTTP/1.1" 200 -
+INFO:2022-06-11 09:09:05,298:192.168.159.1 - - [11/Jun/2022 09:09:05] "GET /static/img/lagopus.svg HTTP/1.1" 200 -
+INFO:2022-06-11 09:09:05,672:192.168.159.1 - - [11/Jun/2022 09:09:05] "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 -
+INFO:2022-06-11 09:09:05,692:192.168.159.1 - - [11/Jun/2022 09:09:05] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+INFO:2022-06-11 09:09:05,862:192.168.159.1 - - [11/Jun/2022 09:09:05] "[33mGET /job/api/jobs HTTP/1.1[0m" 404 -
+INFO:2022-06-11 09:09:05,870:192.168.159.1 - - [11/Jun/2022 09:09:05] "GET /api/job/?_=1654952945555 HTTP/1.1" 200 -
+INFO:2022-06-11 09:09:06,418:192.168.159.1 - - [11/Jun/2022 09:09:06] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+WARNING:2022-06-11 09:09:50,941: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:2022-06-11 09:09:50,942: * Running on http://192.168.159.136:5000/ (Press CTRL+C to quit)
+INFO:2022-06-11 09:09:50,942: * Restarting with stat
+WARNING:2022-06-11 09:09:51,715: * Debugger is active!
+INFO:2022-06-11 09:09:51,716: * Debugger PIN: 539-015-333
+INFO:2022-06-11 09:09:58,986:192.168.159.1 - - [11/Jun/2022 09:09:58] "GET /api/job/ HTTP/1.1" 200 -
+DEBUG:2022-06-11 09:10:12,726:save abi file to f/opt/faint/job/test2.2022-06-11-09-10-12/src/test2.abi
+DEBUG:2022-06-11 09:10:12,727:abi: [{'constant': True, 'inputs': [], 'name': 'name', 'outputs': [{'name': '', 'type': 'string'}], 'payable': False, 'type': 'function'}, {'constant': False, 'inputs': [{'name': '_spender', 'type': 'address'}, {'name': '_value', 'type': 'uint256'}], 'name': 'approve', 'outputs': [{'name': 'success', 'type': 'bool'}], 'payable': False, 'type': 'function'}, {'constant': True, 'inputs': [], 'name': 'totalSupply', 'outputs': [{'name': '', 'type': 'uint256'}], 'payable': False, 'type': 'function'}, {'constant': False, 'inputs': [{'name': '_from', 'type': 'address'}, {'name': '_to', 'type': 'address'}, {'name': '_value', 'type': 'uint256'}], 'name': 'transferFrom', 'outputs': [{'name': 'success', 'type': 'bool'}], 'payable': False, 'type': 'function'}, {'constant': True, 'inputs': [], 'name': 'decimals', 'outputs': [{'name': '', 'type': 'uint8'}], 'payable': False, 'type': 'function'}, {'constant': False, 'inputs': [{'name': 'amount', 'type': 'uint256'}], 'name': 'withdrawEther', 'outputs': [], 'payable': False, 'type': 'function'}, {'constant': False, 'inputs': [{'name': '_value', 'type': 'uint256'}], 'name': 'burn', 'outputs': [{'name': 'success', 'type': 'bool'}], 'payable': False, 'type': 'function'}, {'constant': False, 'inputs': [{'name': '_value', 'type': 'uint256'}], 'name': 'unfreeze', 'outputs': [{'name': 'success', 'type': 'bool'}], 'payable': False, 'type': 'function'}, {'constant': True, 'inputs': [{'name': '', 'type': 'address'}], 'name': 'balanceOf', 'outputs': [{'name': '', 'type': 'uint256'}], 'payable': False, 'type': 'function'}, {'constant': True, 'inputs': [], 'name': 'owner', 'outputs': [{'name': '', 'type': 'address'}], 'payable': False, 'type': 'function'}, {'constant': True, 'inputs': [], 'name': 'symbol', 'outputs': [{'name': '', 'type': 'string'}], 'payable': False, 'type': 'function'}, {'constant': False, 'inputs': [{'name': '_to', 'type': 'address'}, {'name': '_value', 'type': 'uint256'}], 'name': 'transfer', 'outputs': [], 'payable': False, 'type': 'function'}, {'constant': True, 'inputs': [{'name': '', 'type': 'address'}], 'name': 'freezeOf', 'outputs': [{'name': '', 'type': 'uint256'}], 'payable': False, 'type': 'function'}, {'constant': False, 'inputs': [{'name': '_value', 'type': 'uint256'}], 'name': 'freeze', 'outputs': [{'name': 'success', 'type': 'bool'}], 'payable': False, 'type': 'function'}, {'constant': True, 'inputs': [{'name': '', 'type': 'address'}, {'name': '', 'type': 'address'}], 'name': 'allowance', 'outputs': [{'name': '', 'type': 'uint256'}], 'payable': False, 'type': 'function'}, {'inputs': [{'name': 'initialSupply', 'type': 'uint256'}, {'name': 'tokenName', 'type': 'string'}, {'name': 'decimalUnits', 'type': 'uint8'}, {'name': 'tokenSymbol', 'type': 'string'}], 'payable': False, 'type': 'constructor'}, {'payable': True, 'type': 'fallback'}, {'anonymous': False, 'inputs': [{'indexed': True, 'name': 'from', 'type': 'address'}, {'indexed': True, 'name': 'to', 'type': 'address'}, {'indexed': False, 'name': 'value', 'type': 'uint256'}], 'name': 'Transfer', 'type': 'event'}, {'anonymous': False, 'inputs': [{'indexed': True, 'name': 'from', 'type': 'address'}, {'indexed': False, 'name': 'value', 'type': 'uint256'}], 'name': 'Burn', 'type': 'event'}, {'anonymous': False, 'inputs': [{'indexed': True, 'name': 'from', 'type': 'address'}, {'indexed': False, 'name': 'value', 'type': 'uint256'}], 'name': 'Freeze', 'type': 'event'}, {'anonymous': False, 'inputs': [{'indexed': True, 'name': 'from', 'type': 'address'}, {'indexed': False, 'name': 'value', 'type': 'uint256'}], 'name': 'Unfreeze', 'type': 'event'}]
+DEBUG:2022-06-11 09:10:12,727:save bin file to f/opt/faint/job/test2.2022-06-11-09-10-12/src/test2.bin
+DEBUG:2022-06-11 09:10:12,729:Create job 'test2.2022-06-11-09-10-12'
+INFO:2022-06-11 09:10:12,730:192.168.159.1 - - [11/Jun/2022 09:10:12] "POST /api/job/ HTTP/1.1" 200 -
+INFO:2022-06-11 09:10:18,737:192.168.159.1 - - [11/Jun/2022 09:10:18] "GET /job/ HTTP/1.1" 200 -
+INFO:2022-06-11 09:10:18,920:192.168.159.1 - - [11/Jun/2022 09:10:18] "[36mGET /static/css/bootstrap.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:10:18,922:192.168.159.1 - - [11/Jun/2022 09:10:18] "[36mGET /static/css/sb-admin-2.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:10:18,924:192.168.159.1 - - [11/Jun/2022 09:10:18] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:10:18,926:192.168.159.1 - - [11/Jun/2022 09:10:18] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:10:18,929:192.168.159.1 - - [11/Jun/2022 09:10:18] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:10:18,933:192.168.159.1 - - [11/Jun/2022 09:10:18] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:10:18,937:192.168.159.1 - - [11/Jun/2022 09:10:18] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:10:18,945:192.168.159.1 - - [11/Jun/2022 09:10:18] "[36mGET /static/vendor/moment/moment.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:10:18,950:192.168.159.1 - - [11/Jun/2022 09:10:18] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:10:18,954:192.168.159.1 - - [11/Jun/2022 09:10:18] "[36mGET /static/vendor/datatables/jquery.dataTables.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:10:18,957:192.168.159.1 - - [11/Jun/2022 09:10:18] "[36mGET /static/vendor/datatables/dataTables.bootstrap4.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:10:18,962:192.168.159.1 - - [11/Jun/2022 09:10:18] "[36mGET /static/js/lagopus.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:10:19,009:192.168.159.1 - - [11/Jun/2022 09:10:19] "[36mGET /static/img/lagopus.svg HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:10:19,134:192.168.159.1 - - [11/Jun/2022 09:10:19] "[36mGET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:10:19,147:192.168.159.1 - - [11/Jun/2022 09:10:19] "[36mGET /static/img/favicon.ico HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:10:19,295:192.168.159.1 - - [11/Jun/2022 09:10:19] "[33mGET /job/api/jobs HTTP/1.1[0m" 404 -
+INFO:2022-06-11 09:10:19,315:192.168.159.1 - - [11/Jun/2022 09:10:19] "GET /api/job/?_=1654953019023 HTTP/1.1" 200 -
+INFO:2022-06-11 09:10:19,608:192.168.159.1 - - [11/Jun/2022 09:10:19] "[36mGET /static/img/favicon.ico HTTP/1.1[0m" 304 -
+DEBUG:2022-06-11 09:10:41,031:evm output: {'pc': None, 'path': ['0x25', '0x46', '0x4a', '0x4c'], 'cost': None, 'status': ['potential overflow']}, or b'{"pc":null,"path":["0x25","0x46","0x4a","0x4c"],"cost":null,"status":["potential overflow"]}\n'
+INFO:2022-06-11 09:10:41,032:192.168.159.1 - - [11/Jun/2022 09:10:41] "POST /api/job/test/ HTTP/1.1" 200 -
+INFO:2022-06-11 09:12:58,001: * Detected change in '/home/kali/fuzzer_server/job/api.py', reloading
+INFO:2022-06-11 09:12:58,086: * Restarting with stat
+WARNING:2022-06-11 09:12:58,873: * Debugger is active!
+INFO:2022-06-11 09:12:58,873: * Debugger PIN: 539-015-333
+WARNING:2022-06-11 09:13:09,532: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:2022-06-11 09:13:09,532: * Running on http://192.168.159.136:5000/ (Press CTRL+C to quit)
+INFO:2022-06-11 09:13:09,533: * Restarting with stat
+WARNING:2022-06-11 09:13:10,288: * Debugger is active!
+INFO:2022-06-11 09:13:10,288: * Debugger PIN: 539-015-333
+DEBUG:2022-06-11 09:13:16,844:evm output: {'pc': None, 'path': ['0x25', '0x46', '0x4a', '0x4c'], 'cost': None, 'status': ['potential overflow']}, or b'{"pc":null,"path":["0x25","0x46","0x4a","0x4c"],"cost":null,"status":["potential overflow"]}\n'
+INFO:2022-06-11 09:13:16,845:192.168.159.1 - - [11/Jun/2022 09:13:16] "POST /api/job/test/ HTTP/1.1" 200 -
+INFO:2022-06-11 09:14:42,829: * Detected change in '/home/kali/fuzzer_server/job/api.py', reloading
+INFO:2022-06-11 09:14:42,922: * Restarting with stat
+WARNING:2022-06-11 09:14:43,635: * Debugger is active!
+INFO:2022-06-11 09:14:43,635: * Debugger PIN: 539-015-333
+WARNING:2022-06-11 09:14:48,591: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:2022-06-11 09:14:48,591: * Running on http://192.168.159.136:5000/ (Press CTRL+C to quit)
+INFO:2022-06-11 09:14:48,592: * Restarting with stat
+WARNING:2022-06-11 09:14:49,573: * Debugger is active!
+INFO:2022-06-11 09:14:49,573: * Debugger PIN: 539-015-333
+DEBUG:2022-06-11 09:14:51,946:evm output: json {'pc': None, 'path': ['0x25', '0x46', '0x4a', '0x4c'], 'cost': None, 'status': ['potential overflow']}, raw b'{"pc":null,"path":["0x25","0x46","0x4a","0x4c"],"cost":null,"status":["potential overflow"]}\n'
+INFO:2022-06-11 09:14:51,957:192.168.159.1 - - [11/Jun/2022 09:14:51] "[35m[1mPOST /api/job/test/ HTTP/1.1[0m" 500 -
+WARNING:2022-06-11 09:15:31,425: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:2022-06-11 09:15:31,425: * Running on http://192.168.159.136:5000/ (Press CTRL+C to quit)
+INFO:2022-06-11 09:15:31,426: * Restarting with stat
+WARNING:2022-06-11 09:15:32,171: * Debugger is active!
+INFO:2022-06-11 09:15:32,171: * Debugger PIN: 539-015-333
+DEBUG:2022-06-11 09:15:33,383:evm output: json {'pc': None, 'path': ['0x25', '0x46', '0x4a', '0x4c'], 'cost': None, 'status': ['potential overflow']}, raw b'{"pc":null,"path":["0x25","0x46","0x4a","0x4c"],"cost":null,"status":["potential overflow"]}\n'
+INFO:2022-06-11 09:15:33,385:192.168.159.1 - - [11/Jun/2022 09:15:33] "POST /api/job/test/ HTTP/1.1" 200 -
+WARNING:2022-06-11 09:29:33,646: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:2022-06-11 09:29:33,646: * Running on http://192.168.159.136:5000/ (Press CTRL+C to quit)
+INFO:2022-06-11 09:29:33,647: * Restarting with stat
+WARNING:2022-06-11 09:29:34,408: * Debugger is active!
+INFO:2022-06-11 09:29:34,409: * Debugger PIN: 539-015-333
+DEBUG:2022-06-11 09:29:43,025:save abi file to f/opt/faint/job/test2.2022-06-11-09-29-43/src/test2.abi
+DEBUG:2022-06-11 09:29:43,025:abi: [{'constant': True, 'inputs': [], 'name': 'name', 'outputs': [{'name': '', 'type': 'string'}], 'payable': False, 'type': 'function'}, {'constant': False, 'inputs': [{'name': '_spender', 'type': 'address'}, {'name': '_value', 'type': 'uint256'}], 'name': 'approve', 'outputs': [{'name': 'success', 'type': 'bool'}], 'payable': False, 'type': 'function'}, {'constant': True, 'inputs': [], 'name': 'totalSupply', 'outputs': [{'name': '', 'type': 'uint256'}], 'payable': False, 'type': 'function'}, {'constant': False, 'inputs': [{'name': '_from', 'type': 'address'}, {'name': '_to', 'type': 'address'}, {'name': '_value', 'type': 'uint256'}], 'name': 'transferFrom', 'outputs': [{'name': 'success', 'type': 'bool'}], 'payable': False, 'type': 'function'}, {'constant': True, 'inputs': [], 'name': 'decimals', 'outputs': [{'name': '', 'type': 'uint8'}], 'payable': False, 'type': 'function'}, {'constant': False, 'inputs': [{'name': 'amount', 'type': 'uint256'}], 'name': 'withdrawEther', 'outputs': [], 'payable': False, 'type': 'function'}, {'constant': False, 'inputs': [{'name': '_value', 'type': 'uint256'}], 'name': 'burn', 'outputs': [{'name': 'success', 'type': 'bool'}], 'payable': False, 'type': 'function'}, {'constant': False, 'inputs': [{'name': '_value', 'type': 'uint256'}], 'name': 'unfreeze', 'outputs': [{'name': 'success', 'type': 'bool'}], 'payable': False, 'type': 'function'}, {'constant': True, 'inputs': [{'name': '', 'type': 'address'}], 'name': 'balanceOf', 'outputs': [{'name': '', 'type': 'uint256'}], 'payable': False, 'type': 'function'}, {'constant': True, 'inputs': [], 'name': 'owner', 'outputs': [{'name': '', 'type': 'address'}], 'payable': False, 'type': 'function'}, {'constant': True, 'inputs': [], 'name': 'symbol', 'outputs': [{'name': '', 'type': 'string'}], 'payable': False, 'type': 'function'}, {'constant': False, 'inputs': [{'name': '_to', 'type': 'address'}, {'name': '_value', 'type': 'uint256'}], 'name': 'transfer', 'outputs': [], 'payable': False, 'type': 'function'}, {'constant': True, 'inputs': [{'name': '', 'type': 'address'}], 'name': 'freezeOf', 'outputs': [{'name': '', 'type': 'uint256'}], 'payable': False, 'type': 'function'}, {'constant': False, 'inputs': [{'name': '_value', 'type': 'uint256'}], 'name': 'freeze', 'outputs': [{'name': 'success', 'type': 'bool'}], 'payable': False, 'type': 'function'}, {'constant': True, 'inputs': [{'name': '', 'type': 'address'}, {'name': '', 'type': 'address'}], 'name': 'allowance', 'outputs': [{'name': '', 'type': 'uint256'}], 'payable': False, 'type': 'function'}, {'inputs': [{'name': 'initialSupply', 'type': 'uint256'}, {'name': 'tokenName', 'type': 'string'}, {'name': 'decimalUnits', 'type': 'uint8'}, {'name': 'tokenSymbol', 'type': 'string'}], 'payable': False, 'type': 'constructor'}, {'payable': True, 'type': 'fallback'}, {'anonymous': False, 'inputs': [{'indexed': True, 'name': 'from', 'type': 'address'}, {'indexed': True, 'name': 'to', 'type': 'address'}, {'indexed': False, 'name': 'value', 'type': 'uint256'}], 'name': 'Transfer', 'type': 'event'}, {'anonymous': False, 'inputs': [{'indexed': True, 'name': 'from', 'type': 'address'}, {'indexed': False, 'name': 'value', 'type': 'uint256'}], 'name': 'Burn', 'type': 'event'}, {'anonymous': False, 'inputs': [{'indexed': True, 'name': 'from', 'type': 'address'}, {'indexed': False, 'name': 'value', 'type': 'uint256'}], 'name': 'Freeze', 'type': 'event'}, {'anonymous': False, 'inputs': [{'indexed': True, 'name': 'from', 'type': 'address'}, {'indexed': False, 'name': 'value', 'type': 'uint256'}], 'name': 'Unfreeze', 'type': 'event'}]
+DEBUG:2022-06-11 09:29:43,025:save bin file to f/opt/faint/job/test2.2022-06-11-09-29-43/src/test2.bin
+DEBUG:2022-06-11 09:29:43,030:Create job 'test2.2022-06-11-09-29-43'
+INFO:2022-06-11 09:29:43,031:192.168.159.1 - - [11/Jun/2022 09:29:43] "POST /api/job/ HTTP/1.1" 200 -
+INFO:2022-06-11 09:31:01,583:192.168.159.1 - - [11/Jun/2022 09:31:01] "[36mGET /static/css/bootstrap.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:31:01,586:192.168.159.1 - - [11/Jun/2022 09:31:01] "[36mGET /static/css/sb-admin-2.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:31:01,588:192.168.159.1 - - [11/Jun/2022 09:31:01] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:31:01,642:192.168.159.1 - - [11/Jun/2022 09:31:01] "GET /static/vendor/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 -
+WARNING:2022-06-11 09:32:53,285: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:2022-06-11 09:32:53,286: * Running on http://192.168.159.136:5000/ (Press CTRL+C to quit)
+INFO:2022-06-11 09:32:53,286: * Restarting with stat
+WARNING:2022-06-11 09:32:54,056: * Debugger is active!
+INFO:2022-06-11 09:32:54,056: * Debugger PIN: 539-015-333
+INFO:2022-06-11 09:33:08,885:192.168.159.1 - - [11/Jun/2022 09:33:08] "GET /job/ HTTP/1.1" 200 -
+INFO:2022-06-11 09:33:09,105:192.168.159.1 - - [11/Jun/2022 09:33:09] "[36mGET /static/css/sb-admin-2.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:33:09,106:192.168.159.1 - - [11/Jun/2022 09:33:09] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:33:09,110:192.168.159.1 - - [11/Jun/2022 09:33:09] "[36mGET /static/css/bootstrap.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:33:09,116:192.168.159.1 - - [11/Jun/2022 09:33:09] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:33:09,117:192.168.159.1 - - [11/Jun/2022 09:33:09] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:33:09,119:192.168.159.1 - - [11/Jun/2022 09:33:09] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:33:09,122:192.168.159.1 - - [11/Jun/2022 09:33:09] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:33:09,126:192.168.159.1 - - [11/Jun/2022 09:33:09] "[36mGET /static/vendor/moment/moment.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:33:09,131:192.168.159.1 - - [11/Jun/2022 09:33:09] "[36mGET /static/vendor/datatables/dataTables.bootstrap4.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:33:09,132:192.168.159.1 - - [11/Jun/2022 09:33:09] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:33:09,135:192.168.159.1 - - [11/Jun/2022 09:33:09] "[36mGET /static/vendor/datatables/jquery.dataTables.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:33:09,137:192.168.159.1 - - [11/Jun/2022 09:33:09] "[36mGET /static/js/lagopus.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:33:09,164:192.168.159.1 - - [11/Jun/2022 09:33:09] "[36mGET /static/img/lagopus.svg HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:33:09,258:192.168.159.1 - - [11/Jun/2022 09:33:09] "[36mGET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:33:09,269:192.168.159.1 - - [11/Jun/2022 09:33:09] "[36mGET /static/img/favicon.ico HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:33:09,424:192.168.159.1 - - [11/Jun/2022 09:33:09] "[33mGET /job/api/jobs HTTP/1.1[0m" 404 -
+INFO:2022-06-11 09:33:09,445:192.168.159.1 - - [11/Jun/2022 09:33:09] "GET /api/job/?_=1654954389151 HTTP/1.1" 200 -
+INFO:2022-06-11 09:33:09,715:192.168.159.1 - - [11/Jun/2022 09:33:09] "[36mGET /static/img/favicon.ico HTTP/1.1[0m" 304 -
+WARNING:2022-06-11 09:36:13,521: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:2022-06-11 09:36:13,521: * Running on http://192.168.159.136:5000/ (Press CTRL+C to quit)
+INFO:2022-06-11 09:36:13,521: * Restarting with stat
+WARNING:2022-06-11 09:36:14,299: * Debugger is active!
+INFO:2022-06-11 09:36:14,462: * Debugger PIN: 539-015-333
+INFO:2022-06-11 09:36:16,692:192.168.159.1 - - [11/Jun/2022 09:36:16] "GET /job/ HTTP/1.1" 200 -
+INFO:2022-06-11 09:36:16,790:192.168.159.1 - - [11/Jun/2022 09:36:16] "[36mGET /static/css/bootstrap.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:36:16,796:192.168.159.1 - - [11/Jun/2022 09:36:16] "[36mGET /static/css/sb-admin-2.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:36:16,797:192.168.159.1 - - [11/Jun/2022 09:36:16] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:36:16,802:192.168.159.1 - - [11/Jun/2022 09:36:16] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:36:16,809:192.168.159.1 - - [11/Jun/2022 09:36:16] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:36:16,812:192.168.159.1 - - [11/Jun/2022 09:36:16] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:36:16,813:192.168.159.1 - - [11/Jun/2022 09:36:16] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:36:16,817:192.168.159.1 - - [11/Jun/2022 09:36:16] "[36mGET /static/vendor/moment/moment.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:36:16,823:192.168.159.1 - - [11/Jun/2022 09:36:16] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:36:16,827:192.168.159.1 - - [11/Jun/2022 09:36:16] "[36mGET /static/vendor/datatables/jquery.dataTables.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:36:16,843:192.168.159.1 - - [11/Jun/2022 09:36:16] "[36mGET /static/vendor/datatables/dataTables.bootstrap4.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:36:16,845:192.168.159.1 - - [11/Jun/2022 09:36:16] "[36mGET /static/js/lagopus.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:36:17,090:192.168.159.1 - - [11/Jun/2022 09:36:17] "[36mGET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:36:17,106:192.168.159.1 - - [11/Jun/2022 09:36:17] "[36mGET /static/img/favicon.ico HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:36:17,304:192.168.159.1 - - [11/Jun/2022 09:36:17] "[33mGET /job/api/jobs HTTP/1.1[0m" 404 -
+INFO:2022-06-11 09:36:17,310:192.168.159.1 - - [11/Jun/2022 09:36:17] "GET /api/job/?_=1654954576976 HTTP/1.1" 200 -
+INFO:2022-06-11 09:36:17,568:192.168.159.1 - - [11/Jun/2022 09:36:17] "[36mGET /static/img/favicon.ico HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:36:19,728:192.168.159.1 - - [11/Jun/2022 09:36:19] "GET /api/ HTTP/1.1" 200 -
+INFO:2022-06-11 09:36:19,786:192.168.159.1 - - [11/Jun/2022 09:36:19] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:36:19,787:192.168.159.1 - - [11/Jun/2022 09:36:19] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:36:19,790:192.168.159.1 - - [11/Jun/2022 09:36:19] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:36:19,792:192.168.159.1 - - [11/Jun/2022 09:36:19] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:36:19,999:192.168.159.1 - - [11/Jun/2022 09:36:19] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:36:20,148:192.168.159.1 - - [11/Jun/2022 09:36:20] "GET /api/swagger.json HTTP/1.1" 200 -
+INFO:2022-06-11 09:36:21,607:192.168.159.1 - - [11/Jun/2022 09:36:21] "GET /api/job/?_=1654954581442 HTTP/1.1" 200 -
+WARNING:2022-06-11 09:38:31,826: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:2022-06-11 09:38:31,826: * Running on http://192.168.159.136:5000/ (Press CTRL+C to quit)
+INFO:2022-06-11 09:38:31,827: * Restarting with stat
+WARNING:2022-06-11 09:38:32,672: * Debugger is active!
+INFO:2022-06-11 09:38:32,673: * Debugger PIN: 539-015-333
+INFO:2022-06-11 09:38:33,644:192.168.159.1 - - [11/Jun/2022 09:38:33] "GET /job/ HTTP/1.1" 200 -
+INFO:2022-06-11 09:38:33,824:192.168.159.1 - - [11/Jun/2022 09:38:33] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:38:33,875:192.168.159.1 - - [11/Jun/2022 09:38:33] "[36mGET /static/css/sb-admin-2.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:38:33,882:192.168.159.1 - - [11/Jun/2022 09:38:33] "[36mGET /static/css/bootstrap.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:38:33,939:192.168.159.1 - - [11/Jun/2022 09:38:33] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:38:33,944:192.168.159.1 - - [11/Jun/2022 09:38:33] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:38:33,978:192.168.159.1 - - [11/Jun/2022 09:38:33] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:38:33,982:192.168.159.1 - - [11/Jun/2022 09:38:33] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:38:33,987:192.168.159.1 - - [11/Jun/2022 09:38:33] "[36mGET /static/vendor/moment/moment.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:38:33,990:192.168.159.1 - - [11/Jun/2022 09:38:33] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:38:34,043:192.168.159.1 - - [11/Jun/2022 09:38:34] "[36mGET /static/vendor/datatables/jquery.dataTables.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:38:34,048:192.168.159.1 - - [11/Jun/2022 09:38:34] "[36mGET /static/vendor/datatables/dataTables.bootstrap4.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:38:34,051:192.168.159.1 - - [11/Jun/2022 09:38:34] "[36mGET /static/js/lagopus.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:38:34,174:192.168.159.1 - - [11/Jun/2022 09:38:34] "[36mGET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:38:34,245:192.168.159.1 - - [11/Jun/2022 09:38:34] "[36mGET /static/img/favicon.ico HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:38:34,356:192.168.159.1 - - [11/Jun/2022 09:38:34] "[33mGET /api/jobs HTTP/1.1[0m" 404 -
+INFO:2022-06-11 09:38:34,375:192.168.159.1 - - [11/Jun/2022 09:38:34] "GET /api/job/?_=1654954714072 HTTP/1.1" 200 -
+INFO:2022-06-11 09:38:34,529:192.168.159.1 - - [11/Jun/2022 09:38:34] "[36mGET /static/img/favicon.ico HTTP/1.1[0m" 304 -
+WARNING:2022-06-11 09:41:47,722: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:2022-06-11 09:41:47,722: * Running on http://192.168.159.136:5000/ (Press CTRL+C to quit)
+INFO:2022-06-11 09:41:47,722: * Restarting with stat
+WARNING:2022-06-11 09:41:48,558: * Debugger is active!
+INFO:2022-06-11 09:41:48,559: * Debugger PIN: 539-015-333
+INFO:2022-06-11 09:41:51,327:192.168.159.1 - - [11/Jun/2022 09:41:51] "GET /job/ HTTP/1.1" 200 -
+INFO:2022-06-11 09:41:51,451:192.168.159.1 - - [11/Jun/2022 09:41:51] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:41:51,453:192.168.159.1 - - [11/Jun/2022 09:41:51] "[36mGET /static/css/sb-admin-2.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:41:51,459:192.168.159.1 - - [11/Jun/2022 09:41:51] "[36mGET /static/css/bootstrap.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:41:51,468:192.168.159.1 - - [11/Jun/2022 09:41:51] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:41:51,469:192.168.159.1 - - [11/Jun/2022 09:41:51] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:41:51,474:192.168.159.1 - - [11/Jun/2022 09:41:51] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:41:51,484:192.168.159.1 - - [11/Jun/2022 09:41:51] "[36mGET /static/vendor/moment/moment.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:41:51,485:192.168.159.1 - - [11/Jun/2022 09:41:51] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:41:51,494:192.168.159.1 - - [11/Jun/2022 09:41:51] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:41:51,538:192.168.159.1 - - [11/Jun/2022 09:41:51] "[36mGET /static/vendor/datatables/jquery.dataTables.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:41:51,548:192.168.159.1 - - [11/Jun/2022 09:41:51] "[36mGET /static/vendor/datatables/dataTables.bootstrap4.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:41:51,552:192.168.159.1 - - [11/Jun/2022 09:41:51] "[36mGET /static/js/lagopus.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:41:51,795:192.168.159.1 - - [11/Jun/2022 09:41:51] "[36mGET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:41:51,858:192.168.159.1 - - [11/Jun/2022 09:41:51] "[36mGET /static/img/favicon.ico HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:41:51,989:192.168.159.1 - - [11/Jun/2022 09:41:51] "[33mGET /api/jobs HTTP/1.1[0m" 404 -
+INFO:2022-06-11 09:41:52,264:192.168.159.1 - - [11/Jun/2022 09:41:52] "[36mGET /static/img/favicon.ico HTTP/1.1[0m" 304 -
+WARNING:2022-06-11 09:42:28,807: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:2022-06-11 09:42:28,807: * Running on http://192.168.159.136:5000/ (Press CTRL+C to quit)
+INFO:2022-06-11 09:42:28,808: * Restarting with stat
+WARNING:2022-06-11 09:42:29,582: * Debugger is active!
+INFO:2022-06-11 09:42:29,582: * Debugger PIN: 539-015-333
+INFO:2022-06-11 09:42:31,743:192.168.159.1 - - [11/Jun/2022 09:42:31] "GET /job/ HTTP/1.1" 200 -
+INFO:2022-06-11 09:42:31,902:192.168.159.1 - - [11/Jun/2022 09:42:31] "[36mGET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:42:31,913:192.168.159.1 - - [11/Jun/2022 09:42:31] "[36mGET /static/vendor/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:42:31,917:192.168.159.1 - - [11/Jun/2022 09:42:31] "[36mGET /static/css/bootstrap.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:42:31,922:192.168.159.1 - - [11/Jun/2022 09:42:31] "[36mGET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:42:31,927:192.168.159.1 - - [11/Jun/2022 09:42:31] "[36mGET /static/css/sb-admin-2.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:42:31,938:192.168.159.1 - - [11/Jun/2022 09:42:31] "[36mGET /static/js/sb-admin-2.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:42:31,940:192.168.159.1 - - [11/Jun/2022 09:42:31] "[36mGET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:42:31,945:192.168.159.1 - - [11/Jun/2022 09:42:31] "[36mGET /static/vendor/moment/moment.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:42:31,952:192.168.159.1 - - [11/Jun/2022 09:42:31] "[36mGET /static/vendor/chart.js/Chart.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:42:31,954:192.168.159.1 - - [11/Jun/2022 09:42:31] "[36mGET /static/vendor/datatables/jquery.dataTables.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:42:31,960:192.168.159.1 - - [11/Jun/2022 09:42:31] "[36mGET /static/vendor/datatables/dataTables.bootstrap4.min.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:42:31,967:192.168.159.1 - - [11/Jun/2022 09:42:31] "[36mGET /static/js/lagopus.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:42:32,206:192.168.159.1 - - [11/Jun/2022 09:42:32] "[36mGET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:42:32,229:192.168.159.1 - - [11/Jun/2022 09:42:32] "[36mGET /static/img/favicon.ico HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:42:32,393:192.168.159.1 - - [11/Jun/2022 09:42:32] "[33mGET /api/jobs HTTP/1.1[0m" 404 -
+INFO:2022-06-11 09:42:32,423:192.168.159.1 - - [11/Jun/2022 09:42:32] "GET /api/job/?_=1654954952095 HTTP/1.1" 200 -
+INFO:2022-06-11 09:42:32,727:192.168.159.1 - - [11/Jun/2022 09:42:32] "[36mGET /static/img/favicon.ico HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:42:51,134:192.168.159.1 - - [11/Jun/2022 09:42:51] "GET /api/ HTTP/1.1" 200 -
+INFO:2022-06-11 09:42:51,232:192.168.159.1 - - [11/Jun/2022 09:42:51] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:42:51,236:192.168.159.1 - - [11/Jun/2022 09:42:51] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:42:51,281:192.168.159.1 - - [11/Jun/2022 09:42:51] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:42:51,310:192.168.159.1 - - [11/Jun/2022 09:42:51] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:42:51,577:192.168.159.1 - - [11/Jun/2022 09:42:51] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:42:51,955:192.168.159.1 - - [11/Jun/2022 09:42:51] "GET /api/swagger.json HTTP/1.1" 200 -
+INFO:2022-06-11 09:43:51,967:192.168.159.1 - - [11/Jun/2022 09:43:51] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:43:51,968:192.168.159.1 - - [11/Jun/2022 09:43:51] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+INFO:2022-06-11 09:43:52,165:192.168.159.1 - - [11/Jun/2022 09:43:52] "GET /swaggerui/swagger-ui-bundle.js.map HTTP/1.1" 200 -
+INFO:2022-06-11 09:43:52,170:192.168.159.1 - - [11/Jun/2022 09:43:52] "GET /swaggerui/swagger-ui-standalone-preset.js.map HTTP/1.1" 200 -
+INFO:2022-06-11 09:43:52,178:192.168.159.1 - - [11/Jun/2022 09:43:52] "GET /swaggerui/swagger-ui.css.map HTTP/1.1" 200 -
+INFO:2022-06-11 09:44:28,117:192.168.159.1 - - [11/Jun/2022 09:44:28] "GET /api/job/?_=1654955067757 HTTP/1.1" 200 -
+INFO:2022-06-11 09:44:30,450:192.168.159.1 - - [11/Jun/2022 09:44:30] "GET /api/job/?_=1654955070055 HTTP/1.1" 200 -
+INFO:2022-06-11 09:44:32,996:192.168.159.1 - - [11/Jun/2022 09:44:32] "[33mGET /crashes.html HTTP/1.1[0m" 404 -
+INFO:2022-06-11 09:44:33,463:192.168.159.1 - - [11/Jun/2022 09:44:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:2022-06-11 09:44:35,794:192.168.159.1 - - [11/Jun/2022 09:44:35] "GET /api/job/?_=1654955075623 HTTP/1.1" 200 -
