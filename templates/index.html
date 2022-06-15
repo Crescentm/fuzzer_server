@@ -19,18 +19,18 @@
                     <!-- Target .zip upload -->
                     <div class="form-group">
                         <div class="input-group">
-                            <div class="custom-file">
-                                <input type="file" required="required" name="target" class="custom-file-input" id="file_upload">
-                                <label class="custom-file-label" for="inputGroupFile01">Choose target .zip</label>
+                            <div class="input-group-prepend w-25">
+                                <span class="input-group-text w-100">Browse</span>
                             </div>
+                            <input type="file" required="required" class="custom-file-input" name="target" id="file_upload">
                         </div>
                     </div>
 
                     <!-- Job name -->
                     <div class="form-group">
                         <div class="input-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text">Job name</span>
+                            <div class="input-group-prepend w-25">
+                                <span class="input-group-text w-100">Job name</span>
                             </div>
                             <input type="text" required="required" class="form-control" name="job_name" aria-label="Job name">
                         </div>
@@ -53,8 +53,8 @@
                     <!-- Cores -->
                     <div class="form-group">
                         <div class="input-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text">Cores</span>
+                            <div class="input-group-prepend w-25">
+                                <span class="input-group-text w-100">Cores</span>
                             </div>
                             <input type="text" class="form-control" placeholder="{{ defaultcpus }}" name="cpus" aria-label="CPUs">
                         </div>
@@ -63,26 +63,20 @@
                     <!-- Memory -->
                     <div class="form-group">
                         <div class="input-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text">Memory</span>
+                            <div class="input-group-prepend w-25">
+                                <span class="input-group-text w-100">Memory(Mi)</span>
                             </div>
                             <input type="text" class="form-control" placeholder="{{ defaultmemory }}" name="memory" aria-label="Memory">
-                            <div class="input-group-append">
-                                <span class="input-group-text">Mi</span>
-                            </div>
                         </div>
                     </div>
 
                     <!-- Deadline -->
                     <div class="form-group">
                         <div class="input-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text">Deadline</span>
+                            <div class="input-group-prepend w-25">
+                                <span class="input-group-text w-100">Deadline(Sec)</span>
                             </div>
                             <input type="text" class="form-control" placeholder="{{ defaultdeadline }}" name="deadline" aria-label="Deadline">
-                            <div class="input-group-append">
-                                <span class="input-group-text">seconds</span>
-                            </div>
                         </div>
                     </div>
 

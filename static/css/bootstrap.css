@@ -346,6 +346,7 @@ progress {
 ::-webkit-file-upload-button {
   font: inherit;
   -webkit-appearance: button;
+  opacity: 0;
 }
 
 output {
@@ -4263,10 +4264,11 @@ input[type="button"].btn-block {
 .custom-file-input {
   position: relative;
   z-index: 2;
-  width: 100%;
+  width: 75%;
   height: calc(1.5em + 0.75rem + 2px);
   margin: 0;
-  opacity: 0;
+  opacity: 1;
+  background: #fff;
 }
 
 .custom-file-input:focus ~ .custom-file-label {
