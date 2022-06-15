@@ -50,7 +50,6 @@ test_response_model = api.model("TestResponseModel", {
     "response": fields.String(required=True, description="test response in json format")
 })
 
-
 class JobDAO(object):
     def __init__(self):
         pass
@@ -202,6 +201,7 @@ class JobTest(Resource):
         except JobNotExistError as e:
             errors.abort(code=404, message=f"Job with id {api.payload['id']} not found")
         return result
+
 
 @job_blueprint.route('/')
 @job_blueprint.route('/index/')
