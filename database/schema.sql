@@ -18,3 +18,12 @@ CREATE TABLE `crashes` (
     `type` varchar(64) NOT NULL,
     `backtrace` longtext NOT NULL
 );
+
+CREATE TABLE `corpuses` (
+    `id` int AUTO_INCREMENT PRIMARY KEY,
+    `name` varchar(64) NOT NULL,
+    `job_id` int NOT NULL,
+    `file_path` varchar(128) NOT NULL,
+    `size` varchar(128) NOT NULL,
+    `update_time` datetime NOT NULL
+);

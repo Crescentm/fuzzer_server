@@ -43,6 +43,7 @@ class CrashDAO(object):
         query = "SELECT * FROM crashes where job_id=%s"
         cursor.execute(query, (payload['job_id'],))
         result = cursor.fetchall()
+        cursor.close()
         if len(result) != 1:
             error_msg = "Failed to get crash '{}' after creation".format(payload['job_id'])
             logging.error(error_msg)
@@ -50,13 +51,14 @@ class CrashDAO(object):
 
         return result[0]
 
-    def get(self, id):
+    def get(self, cid=None):
         cursor = get_cursor(dictionary=True)
         query = "SELECT * FROM crashes where id like %s"
-        crash_id = id if id else "%"
+        crash_id = cid if cid else "%"
         cursor.execute(query, (crash_id,))
         result = cursor.fetchall()
-        if id:
+        cursor.close()
+        if cid:
             # return one result
             if len(result) != 1:
                 err_msg = "Crash {} not exist".format(crash_id)
@@ -88,7 +90,7 @@ class CrashRouter(Resource):
     @api.marshal_list_with(crash_get_model)
     def get(self):
         try:
-            result = crash_dao.get(id=None)
+            result = crash_dao.get()
         except CrashGetError as e:
             # should never execute
             errors.abort(code=502, message=str(e))
